@@ -449,4 +449,1058 @@
 [2015.12.24-22.31.14:127][605]Cmd: MEM
 [2015.12.24-22.31.14:139][605]LogMemory: Platform Memory Stats for Windows
 [2015.12.24-22.31.14:139][605]LogMemory: Process Physical Memory: 829.14 MB used, 829.14 MB peak
-[2015.12.24-22.31.14:139][605]LogMemory: Process Virtual Me
+[2015.12.24-22.31.14:139][605]LogMemory: Process Virtual Memory: 1579.29 MB used, 1579.29 MB peak
+[2015.12.24-22.31.14:139][605]LogMemory: Physical Memory: 8031.16 MB used, 16294.66 MB total
+[2015.12.24-22.31.14:139][605]LogMemory: Virtual Memory: 2334.40 MB used, 134217728.00 MB total
+[2015.12.24-22.31.14:139][605]LogMemory: 
+[2015.12.24-22.31.14:139][605]Allocator Stats for TBB: (not implemented)
+[2015.12.24-22.31.14:139][605]LogPlayLevel: Creating play world package: /Game/custom/UEDPIE_2_menu
+[2015.12.24-22.31.14:141][605]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002040s)
+[2015.12.24-22.31.14:142][605]LogAIModule: Creating AISystem for world menu
+[2015.12.24-22.31.14:142][605]LogPlayLevel: PIE: World Init took: (0.000641s)
+[2015.12.24-22.31.14:142][605]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/custom/menu.menu to /Game/custom/UEDPIE_2_menu.menu (0.002921s)
+[2015.12.24-22.31.14:142][605]LogWorld: Game class is 'RollingGameMode_C'
+[2015.12.24-22.31.14:144][605]LogWorld: Bringing World /Game/custom/UEDPIE_2_menu.menu up for play (max tick rate 60) at 2015.12.24-23.31.14
+[2015.12.24-22.31.14:144][605]LogActor:Warning: GameSession /Game/custom/UEDPIE_2_menu.menu:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.24-22.31.14:144][605]LogActor:Warning: GameNetworkManager /Game/custom/UEDPIE_2_menu.menu:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.24-22.31.14:144][605]LogWorld: Bringing up level for play took: 0.001080
+[2015.12.24-22.31.14:145][605]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.12.24-22.31.17:964][803]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/custom/menu.menu:PersistentLevel' has LevelScriptBlueprint '/Game/custom/menu.menu:PersistentLevel.menu' with GeneratedClass '/Game/custom/menu.menu_C' with ClassGeneratedBy '/Game/custom/menu.menu:PersistentLevel.menu'
+[2015.12.24-22.31.17:998][803]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2015.12.24-22.31.17:999][803]LogSpawn:Warning: SpawnActor failed because we are in the process of tearing down the world
+[2015.12.24-22.31.18:044][803]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2015.12.24-22.31.18:044][803]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2015.12.24-22.31.18:044][803]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/custom/menu.menu:PersistentLevel' has LevelScriptBlueprint '/Game/custom/menu.menu:PersistentLevel.menu' with GeneratedClass '/Game/custom/menu.menu_C' with ClassGeneratedBy '/Game/custom/menu.menu:PersistentLevel.menu'
+[2015.12.24-22.31.18:069][803]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001C515B34400
+[2015.12.24-22.31.18:089][803]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001C518E6B240
+[2015.12.24-22.31.18:118][804]LogPlayLevel:Display: Destroying online subsystem :Context_7
+[2015.12.24-22.31.18:118][804]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2015.12.24-22.31.18:118][804]LogPlayLevel:Display: Destroying online subsystem :Context_6
+[2015.12.24-22.31.18:118][804]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2015.12.24-22.35.50:995][317]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/custom/menu.menu:PersistentLevel' has LevelScriptBlueprint '/Game/custom/menu.menu:PersistentLevel.menu' with GeneratedClass '/Game/custom/menu.menu_C' with ClassGeneratedBy '/Game/custom/menu.menu:PersistentLevel.menu'
+[2015.12.24-22.35.50:995][317]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.24-22.35.50:997][317]PIE: New page: PIE session: menu (Dec 25, 2015, 12:35:50 AM)
+[2015.12.24-22.35.50:997][317]LogPlayLevel: Creating play world package: /Game/custom/UEDPIE_1_menu
+[2015.12.24-22.35.50:999][317]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002345s)
+[2015.12.24-22.35.51:000][317]LogAIModule: Creating AISystem for world menu
+[2015.12.24-22.35.51:000][317]LogPlayLevel: PIE: World Init took: (0.000780s)
+[2015.12.24-22.35.51:000][317]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/custom/menu.menu to /Game/custom/UEDPIE_1_menu.menu (0.003416s)
+[2015.12.24-22.35.51:020][317]LogInit: XAudio2 using 'HeadPhone/Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.24-22.35.51:044][317]LogInit: FAudioDevice initialized.
+[2015.12.24-22.35.51:078][317]LogWorld: Game class is 'RollingGameMode_C'
+[2015.12.24-22.35.51:081][317]LogWorld: Bringing World /Game/custom/UEDPIE_1_menu.menu up for play (max tick rate 60) at 2015.12.24-23.35.51
+[2015.12.24-22.35.51:081][317]LogActor:Warning: GameSession /Game/custom/UEDPIE_1_menu.menu:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.24-22.35.51:081][317]LogActor:Warning: GameNetworkManager /Game/custom/UEDPIE_1_menu.menu:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.24-22.35.51:082][317]LogWorld: Bringing up level for play took: 0.001268
+[2015.12.24-22.35.51:093][317]LogVoice:Warning: Failed to initialize voice interface
+[2015.12.24-22.35.51:094][317]LogInit: WinSock: Socket queue 131072 / 131072
+[2015.12.24-22.35.51:094][317]LogNet: GameNetDriver IpNetDriver_5 IpNetDriver listening on port 7777
+[2015.12.24-22.35.51:094][317]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2015.12.24-22.35.51:096][317]PIE: Info Play in editor start time for /Game/custom/UEDPIE_1_menu 0.917
+[2015.12.24-22.35.51:097][317]PIE: New page: PIE session: menu (Dec 25, 2015, 12:35:51 AM)
+[2015.12.24-22.35.51:193][317]LogNet: Browse: 127.0.0.1//Game/custom/menu
+[2015.12.24-22.35.51:193][317]LogInit: WinSock: Socket queue 32768 / 32768
+[2015.12.24-22.35.51:194][317]LogNet: Game client on port 7777, rate 10000
+[2015.12.24-22.35.51:194][317]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2791327, ProjectName: rollingderby, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 4264634188
+[2015.12.24-22.35.51:220][317]PIE: Info Play in editor start time for /Game/custom/menu 1.042
+[2015.12.24-22.35.51:222][317]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/custom/menu.menu:PersistentLevel' has LevelScriptBlueprint '/Game/custom/menu.menu:PersistentLevel.menu' with GeneratedClass '/Game/custom/menu.menu_C' with ClassGeneratedBy '/Game/custom/menu.menu:PersistentLevel.menu'
+[2015.12.24-22.35.51:222][317]LogNet: NotifyAcceptingConnection: Server menu accept
+[2015.12.24-22.35.51:222][317]LogNet: Open menu 12/24/15 23:35:51 127.0.0.1
+[2015.12.24-22.35.51:222][317]LogNet: Added client connection.  Remote address = 127.0.0.1:57249
+[2015.12.24-22.35.51:222][317]LogNet: NotifyAcceptingChannel Control 0 server World /Game/custom/UEDPIE_1_menu.menu: Accepted
+[2015.12.24-22.35.51:222][317]LogNet: Remote platform little endian=1
+[2015.12.24-22.35.51:222][317]LogNet: This platform little endian=1
+[2015.12.24-22.35.51:222][317]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2791327, ProjectName: rollingderby, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 4264634188
+[2015.12.24-22.35.51:235][317]LogVoice:Warning: Failed to initialize voice interface
+[2015.12.24-22.35.51:252][318]LogNet: Login request: /Game/custom/menu?Name=MSI-A819E72A4A569911EADE45A5AC1A1741 userId: MSI-A819E72A4A569911EADE45A5AC1A1741
+[2015.12.24-22.35.51:254][318]LogNet: Welcomed by server (Level: /Game/custom/UEDPIE_1_menu, Game: /Game/RollingBP/Blueprints/RollingGameMode.RollingGameMode_C)
+[2015.12.24-22.35.51:255][318]LogLoad: LoadMap: 127.0.0.1//Game/custom/UEDPIE_1_menu?game=/Game/RollingBP/Blueprints/RollingGameMode.RollingGameMode_C
+[2015.12.24-22.35.51:273][318]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001C51613F9C0
+[2015.12.24-22.35.51:275][318]Cmd: MEM
+[2015.12.24-22.35.51:296][318]LogMemory: Platform Memory Stats for Windows
+[2015.12.24-22.35.51:297][318]LogMemory: Process Physical Memory: 776.59 MB used, 834.21 MB peak
+[2015.12.24-22.35.51:297][318]LogMemory: Process Virtual Memory: 1484.03 MB used, 1579.82 MB peak
+[2015.12.24-22.35.51:297][318]LogMemory: Physical Memory: 7943.92 MB used, 16294.66 MB total
+[2015.12.24-22.35.51:297][318]LogMemory: Virtual Memory: 2263.95 MB used, 134217728.00 MB total
+[2015.12.24-22.35.51:297][318]LogMemory: 
+[2015.12.24-22.35.51:297][318]Allocator Stats for TBB: (not implemented)
+[2015.12.24-22.35.51:301][318]LogWorld: PIE: Copying PIE streaming level from /Game/custom/menu.menu to /Game/custom/UEDPIE_2_menu.menu. OwningWorld: None
+[2015.12.24-22.35.51:302][318]LogAIModule: Creating AISystem for world menu
+[2015.12.24-22.35.51:304][318]LogWorld: Bringing World /Game/custom/UEDPIE_2_menu.menu up for play (max tick rate 60) at 2015.12.24-23.35.51
+[2015.12.24-22.35.51:304][318]LogWorld: Bringing up level for play took: 0.001033
+[2015.12.24-22.35.51:319][319]LogNet: Client netspeed is 10000
+[2015.12.24-22.35.51:319][319]LogNet: Join request: /Game/custom/menu?Name=MSI-A819E72A4A569911EADE45A5AC1A1741?SplitscreenCount=1
+[2015.12.24-22.35.51:320][319]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2015.12.24-22.35.51:321][319]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-813.798 Y=0.000 Z=-5487.674] for [PhysicsBallBP_C]
+[2015.12.24-22.35.51:321][319]LogSpawn:Warning: SpawnActor failed because the spawned actor IsPendingKill
+[2015.12.24-22.35.51:321][319]LogGameMode:Warning: Couldn't spawn Pawn of type PhysicsBallBP_C at PlayerStartPIE_2
+[2015.12.24-22.35.51:321][319]LogNet: Join succeeded: MSI-A819E72A4A569911
+[2015.12.24-22.35.51:340][320]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2015.12.24-22.35.51:372][322]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2015.12.24-22.35.55:126][546]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/custom/menu.menu:PersistentLevel' has LevelScriptBlueprint '/Game/custom/menu.menu:PersistentLevel.menu' with GeneratedClass '/Game/custom/menu.menu_C' with ClassGeneratedBy '/Game/custom/menu.menu:PersistentLevel.menu'
+[2015.12.24-22.35.55:153][546]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2015.12.24-22.35.55:154][546]LogOnline:Warning: NULL: No game present to leave for session (Game)
+[2015.12.24-22.35.55:154][546]LogSpawn:Warning: SpawnActor failed because we are in the process of tearing down the world
+[2015.12.24-22.35.55:186][546]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2015.12.24-22.35.55:187][546]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2015.12.24-22.35.55:187][546]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/custom/menu.menu:PersistentLevel' has LevelScriptBlueprint '/Game/custom/menu.menu:PersistentLevel.menu' with GeneratedClass '/Game/custom/menu.menu_C' with ClassGeneratedBy '/Game/custom/menu.menu:PersistentLevel.menu'
+[2015.12.24-22.35.55:202][546]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2015.12.24-22.35.55:202][546]LogNet: UNetConnection::Close: Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_5, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:57249, Time: 2015.12.24-22.35.55
+[2015.12.24-22.35.55:202][546]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_6
+[2015.12.24-22.35.55:202][546]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2015.12.24-22.35.55:202][546]LogNet: UNetConnection::Close: Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_6, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:7777, Time: 2015.12.24-22.35.55
+[2015.12.24-22.35.55:202][546]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_5
+[2015.12.24-22.35.55:211][546]LogExit: GameNetDriver None shut down
+[2015.12.24-22.35.55:211][546]LogExit: GameNetDriver None shut down
+[2015.12.24-22.35.55:211][546]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001C515C316C0
+[2015.12.24-22.35.55:218][546]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001C518E685E0
+[2015.12.24-22.35.55:225][547]LogPlayLevel:Display: Destroying online subsystem :Context_9
+[2015.12.24-22.35.55:225][547]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2015.12.24-22.35.55:225][547]LogPlayLevel:Display: Destroying online subsystem :Context_8
+[2015.12.24-22.35.55:226][547]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2015.12.24-22.36.28:089][166]Running D:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="D:/rollingderby/RollingDerby/RollingDerby/RollingDerby.uproject" -game -rocket -progress -2015
+[2015.12.24-22.36.28:392][166]Visual C++ 2015 toolchain does not appear to be correctly installed. Please verify that "Common Tools for Visual C++ 2015" was selected when installing Visual Studio 2015.
+[2015.12.24-22.36.28:392][166]Discovering modules, targets and source code for game...
+[2015.12.24-22.36.35:540][166]UnrealBuildTool Exception: ERROR: Windows SDK v8.1 must be installed in order to build this target.
+[2015.12.24-22.36.47:501][572]MapCheck: New page: Map Check
+[2015.12.24-22.36.47:640][572]Cmd: MAP REBUILD ALLVISIBLE
+[2015.12.24-22.36.47:652][572]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.12.24-22.36.47:837][572]MapCheck:Warning: Warning WorldSettings Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2015.12.24-22.36.47:849][572]LogStats:          STAT_HLOD_BuildClusters - 38.222 ms
+[2015.12.24-22.36.47:870][572]LightingResults: New page: Lighting Build - Dec 25, 2015, 12:36:47 AM
+[2015.12.24-22.36.51:034][572]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2015.12.24-22.36.51:034][572]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.12.24-22.36.51:034][572]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.12.24-22.36.51:034][572]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.12.24-22.36.51:034][572]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.12.24-22.36.51:034][572]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.12.24-22.36.51:235][572]LogEditorBuildUtils: Build time 0:00:03
+[2015.12.24-22.36.52:359][604]Job is a success!
+[2015.12.24-22.36.52:503][605]Lightmass on MSI: 669 ms total, 105 ms importing, 0 ms setup, 270 ms photons, 262 ms processing, 0 ms extra exporting [0/0 mappings]. Threads: 1.67 sec total, 0 ms processing.
+[2015.12.24-22.36.52:542][605]LogStaticLightingSystem: Illumination: 4.63 sec (7 ms encoding lightmaps)
+[2015.12.24-22.36.52:542][605]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2015.12.24-22.36.52:542][605]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2015.12.24-22.36.53:046][606]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.12.24-22.36.53:046][606]MapCheck: New page: menu - Dec 25, 2015, 12:36:53 AM
+[2015.12.24-22.36.53:142][606]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 95.692ms to complete.
+[2015.12.24-22.39.38:864][290]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/custom/menu.menu:PersistentLevel' has LevelScriptBlueprint '/Game/custom/menu.menu:PersistentLevel.menu' with GeneratedClass '/Game/custom/menu.menu_C' with ClassGeneratedBy '/Game/custom/menu.menu:PersistentLevel.menu'
+[2015.12.24-22.39.38:864][290]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.24-22.39.38:866][290]PIE: New page: PIE session: menu (Dec 25, 2015, 12:39:38 AM)
+[2015.12.24-22.39.38:866][290]LogPlayLevel: Creating play world package: /Game/custom/UEDPIE_1_menu
+[2015.12.24-22.39.38:868][290]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002148s)
+[2015.12.24-22.39.38:868][290]LogAIModule: Creating AISystem for world menu
+[2015.12.24-22.39.38:869][290]LogPlayLevel: PIE: World Init took: (0.000764s)
+[2015.12.24-22.39.38:869][290]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/custom/menu.menu to /Game/custom/UEDPIE_1_menu.menu (0.003147s)
+[2015.12.24-22.39.38:882][290]LogInit: XAudio2 using 'HeadPhone/Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.24-22.39.38:906][290]LogInit: FAudioDevice initialized.
+[2015.12.24-22.39.38:942][290]LogWorld: Game class is 'RollingGameMode_C'
+[2015.12.24-22.39.38:945][290]LogWorld: Bringing World /Game/custom/UEDPIE_1_menu.menu up for play (max tick rate 60) at 2015.12.24-23.39.38
+[2015.12.24-22.39.38:945][290]LogActor:Warning: GameSession /Game/custom/UEDPIE_1_menu.menu:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.24-22.39.38:945][290]LogActor:Warning: GameNetworkManager /Game/custom/UEDPIE_1_menu.menu:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.24-22.39.38:945][290]LogWorld: Bringing up level for play took: 0.001284
+[2015.12.24-22.39.38:957][290]LogVoice:Warning: Failed to initialize voice interface
+[2015.12.24-22.39.38:958][290]LogInit: WinSock: Socket queue 131072 / 131072
+[2015.12.24-22.39.38:958][290]LogNet: GameNetDriver IpNetDriver_7 IpNetDriver listening on port 7777
+[2015.12.24-22.39.38:958][290]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2015.12.24-22.39.38:960][290]PIE: Info Play in editor start time for /Game/custom/UEDPIE_1_menu 0.781
+[2015.12.24-22.39.38:961][290]PIE: New page: PIE session: menu (Dec 25, 2015, 12:39:38 AM)
+[2015.12.24-22.39.39:063][290]LogNet: Browse: 127.0.0.1//Game/custom/menu
+[2015.12.24-22.39.39:064][290]LogInit: WinSock: Socket queue 32768 / 32768
+[2015.12.24-22.39.39:064][290]LogNet: Game client on port 7777, rate 10000
+[2015.12.24-22.39.39:064][290]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2791327, ProjectName: rollingderby, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 4264634188
+[2015.12.24-22.39.39:091][290]PIE: Info Play in editor start time for /Game/custom/menu 0.912
+[2015.12.24-22.39.39:092][290]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/custom/menu.menu:PersistentLevel' has LevelScriptBlueprint '/Game/custom/menu.menu:PersistentLevel.menu' with GeneratedClass '/Game/custom/menu.menu_C' with ClassGeneratedBy '/Game/custom/menu.menu:PersistentLevel.menu'
+[2015.12.24-22.39.39:093][290]LogNet: NotifyAcceptingConnection: Server menu accept
+[2015.12.24-22.39.39:093][290]LogNet: Open menu 12/24/15 23:39:39 127.0.0.1
+[2015.12.24-22.39.39:093][290]LogNet: Added client connection.  Remote address = 127.0.0.1:51541
+[2015.12.24-22.39.39:093][290]LogNet: NotifyAcceptingChannel Control 0 server World /Game/custom/UEDPIE_1_menu.menu: Accepted
+[2015.12.24-22.39.39:093][290]LogNet: Remote platform little endian=1
+[2015.12.24-22.39.39:093][290]LogNet: This platform little endian=1
+[2015.12.24-22.39.39:093][290]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2791327, ProjectName: rollingderby, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 4264634188
+[2015.12.24-22.39.39:106][290]LogVoice:Warning: Failed to initialize voice interface
+[2015.12.24-22.39.39:119][291]LogNet: Login request: /Game/custom/menu?Name=MSI-53E8DCF8435A14D6C2C35AA85007737B userId: MSI-53E8DCF8435A14D6C2C35AA85007737B
+[2015.12.24-22.39.39:121][291]LogNet: Welcomed by server (Level: /Game/custom/UEDPIE_1_menu, Game: /Game/RollingBP/Blueprints/RollingGameMode.RollingGameMode_C)
+[2015.12.24-22.39.39:121][291]LogLoad: LoadMap: 127.0.0.1//Game/custom/UEDPIE_1_menu?game=/Game/RollingBP/Blueprints/RollingGameMode.RollingGameMode_C
+[2015.12.24-22.39.39:140][291]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001C514682A20
+[2015.12.24-22.39.39:142][291]Cmd: MEM
+[2015.12.24-22.39.39:163][291]LogMemory: Platform Memory Stats for Windows
+[2015.12.24-22.39.39:163][291]LogMemory: Process Physical Memory: 765.50 MB used, 834.21 MB peak
+[2015.12.24-22.39.39:163][291]LogMemory: Process Virtual Memory: 1516.67 MB used, 1579.82 MB peak
+[2015.12.24-22.39.39:163][291]LogMemory: Physical Memory: 7826.45 MB used, 16294.66 MB total
+[2015.12.24-22.39.39:163][291]LogMemory: Virtual Memory: 2745.79 MB used, 134217728.00 MB total
+[2015.12.24-22.39.39:163][291]LogMemory: 
+[2015.12.24-22.39.39:163][291]Allocator Stats for TBB: (not implemented)
+[2015.12.24-22.39.39:166][291]LogWorld: PIE: Copying PIE streaming level from /Game/custom/menu.menu to /Game/custom/UEDPIE_2_menu.menu. OwningWorld: None
+[2015.12.24-22.39.39:167][291]LogAIModule: Creating AISystem for world menu
+[2015.12.24-22.39.39:169][291]LogWorld: Bringing World /Game/custom/UEDPIE_2_menu.menu up for play (max tick rate 60) at 2015.12.24-23.39.39
+[2015.12.24-22.39.39:169][291]LogWorld: Bringing up level for play took: 0.001131
+[2015.12.24-22.39.39:186][292]LogNet: Client netspeed is 10000
+[2015.12.24-22.39.39:186][292]LogNet: Join request: /Game/custom/menu?Name=MSI-53E8DCF8435A14D6C2C35AA85007737B?SplitscreenCount=1
+[2015.12.24-22.39.39:187][292]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2015.12.24-22.39.39:189][292]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=0.000 Y=0.000 Z=0.000] for [PhysicsBallBP_C]
+[2015.12.24-22.39.39:189][292]LogSpawn:Warning: SpawnActor failed because the spawned actor IsPendingKill
+[2015.12.24-22.39.39:189][292]LogGameMode:Warning: Couldn't spawn Pawn of type PhysicsBallBP_C at PlayerStartPIE_3
+[2015.12.24-22.39.39:189][292]LogNet: Join succeeded: MSI-53E8DCF8435A14D6
+[2015.12.24-22.39.39:206][293]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2015.12.24-22.39.39:255][296]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2015.12.24-22.39.41:924][427]LogPackageName: SearchForPackageOnDisk took   0.043s to resolve arena.umap.
+[2015.12.24-22.39.41:970][428]LogPackageName: SearchForPackageOnDisk took   0.041s to resolve arena.umap.
+[2015.12.24-22.39.41:970][428]LogNet: Browse: /Game/custom/arena?listen
+[2015.12.24-22.39.41:970][428]LogLoad: LoadMap: /Game/custom/arena?listen
+[2015.12.24-22.39.41:970][428]LogNet: World NetDriver shutdown IpNetDriver_7 [GameNetDriver]
+[2015.12.24-22.39.41:970][428]LogNet: DestroyNamedNetDriver IpNetDriver_7 [GameNetDriver]
+[2015.12.24-22.39.41:970][428]LogNet: UNetConnection::Cleanup: Closing open connection. Name: IpConnection_9, RemoteAddr: 127.0.0.1:51541 Driver: GameNetDriver, PC: PlayerController_19, Owner: PlayerController_19
+[2015.12.24-22.39.41:970][428]LogNet: UNetConnection::Close: Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_7, PC: PlayerController_19, Owner: PlayerController_19, Channels: 10, RemoteAddr: 127.0.0.1:51541, Time: 2015.12.24-22.39.41
+[2015.12.24-22.39.41:970][428]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_8
+[2015.12.24-22.39.41:971][428]LogExit: GameNetDriver IpNetDriver_7 shut down
+[2015.12.24-22.39.41:987][428]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001C5160F8CC0
+[2015.12.24-22.39.41:989][428]Cmd: MEM
+[2015.12.24-22.39.42:002][428]LogMemory: Platform Memory Stats for Windows
+[2015.12.24-22.39.42:002][428]LogMemory: Process Physical Memory: 765.60 MB used, 834.21 MB peak
+[2015.12.24-22.39.42:002][428]LogMemory: Process Virtual Memory: 1568.79 MB used, 1579.82 MB peak
+[2015.12.24-22.39.42:002][428]LogMemory: Physical Memory: 7826.22 MB used, 16294.66 MB total
+[2015.12.24-22.39.42:002][428]LogMemory: Virtual Memory: 2789.79 MB used, 134217728.00 MB total
+[2015.12.24-22.39.42:002][428]LogMemory: 
+[2015.12.24-22.39.42:002][428]Allocator Stats for TBB: (not implemented)
+[2015.12.24-22.39.42:225][428]LogAIModule: Creating AISystem for world arena
+[2015.12.24-22.39.42:226][428]LogWorld: Game class is 'RollingGameMode_C'
+[2015.12.24-22.39.42:226][428]LogInit: WinSock: Socket queue 131072 / 131072
+[2015.12.24-22.39.42:226][428]LogNet: GameNetDriver IpNetDriver_9 IpNetDriver listening on port 7777
+[2015.12.24-22.39.42:252][428]LogWorld: Bringing World /Game/custom/UEDPIE_1_arena.arena up for play (max tick rate 60) at 2015.12.24-23.39.42
+[2015.12.24-22.39.42:252][428]LogActor:Warning: GameSession /Game/custom/UEDPIE_1_arena.arena:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.24-22.39.42:252][428]LogActor:Warning: GameNetworkManager /Game/custom/UEDPIE_1_arena.arena:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.24-22.39.42:253][428]LogWorld: Bringing up level for play took: 0.025459
+[2015.12.24-22.39.42:254][428]LogOnline:Warning: NULL: Can't start an online session (Game) in state InProgress
+[2015.12.24-22.39.42:263][428]LogNet:Warning: Network Failure: GameNetDriver[FailureReceived]: Host closed the connection.
+[2015.12.24-22.39.42:263][428]LogNet:Warning: Network Failure: GameNetDriver[FailureReceived]: Host closed the connection.
+[2015.12.24-22.39.42:263][428]LogNet: NetworkFailure: FailureReceived, Error: 'Host closed the connection.'
+[2015.12.24-22.39.42:263][428]LogNet: UNetConnection::Close: Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_8, PC: PlayerController_20, Owner: PlayerController_20, Channels: 10, RemoteAddr: 127.0.0.1:7777, Time: 2015.12.24-22.39.42
+[2015.12.24-22.39.42:263][428]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_7
+[2015.12.24-22.39.42:263][428]LogNet:Warning: Network Failure: GameNetDriver[ConnectionLost]: Your connection to the host has been lost.
+[2015.12.24-22.39.42:263][428]LogNet:Warning: Network Failure: GameNetDriver[ConnectionLost]: Your connection to the host has been lost.
+[2015.12.24-22.39.42:263][428]LogNet: NetworkFailure: ConnectionLost, Error: 'Your connection to the host has been lost.'
+[2015.12.24-22.39.42:263][428]LogNet:Warning: FObjectReplicator::UpdateUnmappedObjects: Connection->State == USOCK_Closed
+[2015.12.24-22.39.42:263][428]LogNet:Warning: FObjectReplicator::UpdateUnmappedObjects: Connection->State == USOCK_Closed
+[2015.12.24-22.39.42:273][429]LogNet: NotifyAcceptingConnection: Server arena accept
+[2015.12.24-22.39.42:273][429]LogNet: Open arena 12/24/15 23:39:42 127.0.0.1
+[2015.12.24-22.39.42:273][429]LogNet: Added client connection.  Remote address = 127.0.0.1:51541
+[2015.12.24-22.39.42:273][429]LogNetTraffic:Warning: High single frame packet loss: 17
+[2015.12.24-22.39.42:273][429]LogSecurity:Warning: 127.0.0.1:51541: Malformed_Packet: UNetConnection::ReceivedPacket: Received control channel close before open
+[2015.12.24-22.39.42:273][429]LogSecurity:Warning: 127.0.0.1:51541: Closed: Connection closed
+[2015.12.24-22.39.42:273][429]LogNet: UNetConnection::Close: Name: IpConnection_10, Driver: GameNetDriver IpNetDriver_9, PC: NULL, Owner: NULL, Channels: 2, RemoteAddr: 127.0.0.1:51541, Time: 2015.12.24-22.39.42
+[2015.12.24-22.39.42:273][429]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_9
+[2015.12.24-22.39.42:277][429]LogNet: Browse: /Game/custom/menu?closed
+[2015.12.24-22.39.42:277][429]LogNet: Failed; returning to Entry
+[2015.12.24-22.39.42:313][429]LogLoad: LoadMap: /Game/custom/menu?closed
+[2015.12.24-22.39.42:313][429]LogNet: World NetDriver shutdown IpNetDriver_8 [GameNetDriver]
+[2015.12.24-22.39.42:313][429]LogNet: DestroyNamedNetDriver IpNetDriver_8 [GameNetDriver]
+[2015.12.24-22.39.42:313][429]LogExit: GameNetDriver IpNetDriver_8 shut down
+[2015.12.24-22.39.42:327][429]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001C51ABB0900
+[2015.12.24-22.39.42:330][429]Cmd: MEM
+[2015.12.24-22.39.42:345][429]LogMemory: Platform Memory Stats for Windows
+[2015.12.24-22.39.42:345][429]LogMemory: Process Physical Memory: 799.76 MB used, 834.21 MB peak
+[2015.12.24-22.39.42:345][429]LogMemory: Process Virtual Memory: 1624.23 MB used, 1624.23 MB peak
+[2015.12.24-22.39.42:345][429]LogMemory: Physical Memory: 7858.19 MB used, 16294.66 MB total
+[2015.12.24-22.39.42:345][429]LogMemory: Virtual Memory: 2811.23 MB used, 134217728.00 MB total
+[2015.12.24-22.39.42:345][429]LogMemory: 
+[2015.12.24-22.39.42:345][429]Allocator Stats for TBB: (not implemented)
+[2015.12.24-22.39.42:345][429]LogPlayLevel: Creating play world package: /Game/custom/UEDPIE_2_menu
+[2015.12.24-22.39.42:347][429]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002262s)
+[2015.12.24-22.39.42:348][429]LogAIModule: Creating AISystem for world menu
+[2015.12.24-22.39.42:348][429]LogPlayLevel: PIE: World Init took: (0.000627s)
+[2015.12.24-22.39.42:348][429]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/custom/menu.menu to /Game/custom/UEDPIE_2_menu.menu (0.003072s)
+[2015.12.24-22.39.42:348][429]LogWorld: Game class is 'RollingGameMode_C'
+[2015.12.24-22.39.42:350][429]LogWorld: Bringing World /Game/custom/UEDPIE_2_menu.menu up for play (max tick rate 60) at 2015.12.24-23.39.42
+[2015.12.24-22.39.42:350][429]LogActor:Warning: GameSession /Game/custom/UEDPIE_2_menu.menu:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.24-22.39.42:350][429]LogActor:Warning: GameNetworkManager /Game/custom/UEDPIE_2_menu.menu:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.24-22.39.42:350][429]LogWorld: Bringing up level for play took: 0.000910
+[2015.12.24-22.39.42:351][429]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.12.24-22.39.42:351][429]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2015.12.24-22.39.42:374][430]LogNet: NotifyAcceptingConnection: Server arena accept
+[2015.12.24-22.39.42:374][430]LogNet: Open arena 12/24/15 23:39:42 127.0.0.1
+[2015.12.24-22.39.42:374][430]LogNet: Added client connection.  Remote address = 127.0.0.1:51541
+[2015.12.24-22.39.42:374][430]LogNetTraffic:Warning: High single frame packet loss: 18
+[2015.12.24-22.39.42:591][443]LogNet: UNetConnection::Cleanup: Closing open connection. Name: IpConnection_11, RemoteAddr: 127.0.0.1:51541 Driver: GameNetDriver, PC: NoPC, Owner: No Owner
+[2015.12.24-22.39.42:591][443]LogNet: UNetConnection::Close: Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_9, PC: NULL, Owner: NULL, Channels: 1, RemoteAddr: 127.0.0.1:51541, Time: 2015.12.24-22.39.42
+[2015.12.24-22.39.49:594][863]LogBlueprintUserMessages: [massPowerUp_C_47] Server: New scale: 2.251666 New Mass: 3558.262695
+[2015.12.24-22.40.00:519][509]LogBlueprintUserMessages: [massPowerUp_C_41] Server: New scale: 2.927166 New Mass: 9765.713867
+[2015.12.24-22.40.12:569][232]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/custom/menu.menu:PersistentLevel' has LevelScriptBlueprint '/Game/custom/menu.menu:PersistentLevel.menu' with GeneratedClass '/Game/custom/menu.menu_C' with ClassGeneratedBy '/Game/custom/menu.menu:PersistentLevel.menu'
+[2015.12.24-22.40.12:620][232]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2015.12.24-22.40.12:652][232]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2015.12.24-22.40.12:653][232]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2015.12.24-22.40.12:653][232]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/custom/menu.menu:PersistentLevel' has LevelScriptBlueprint '/Game/custom/menu.menu:PersistentLevel.menu' with GeneratedClass '/Game/custom/menu.menu_C' with ClassGeneratedBy '/Game/custom/menu.menu:PersistentLevel.menu'
+[2015.12.24-22.40.12:671][232]LogExit: GameNetDriver None shut down
+[2015.12.24-22.40.12:672][232]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001C5148A5800
+[2015.12.24-22.40.12:679][232]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001C516DF6200
+[2015.12.24-22.40.12:699][233]LogPlayLevel:Display: Destroying online subsystem :Context_11
+[2015.12.24-22.40.12:699][233]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2015.12.24-22.40.12:699][233]LogPlayLevel:Display: Destroying online subsystem :Context_10
+[2015.12.24-22.40.12:699][233]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2015.12.24-22.40.13:487][280]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/custom/menu.menu:PersistentLevel' has LevelScriptBlueprint '/Game/custom/menu.menu:PersistentLevel.menu' with GeneratedClass '/Game/custom/menu.menu_C' with ClassGeneratedBy '/Game/custom/menu.menu:PersistentLevel.menu'
+[2015.12.24-22.40.13:487][280]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.24-22.40.13:488][280]PIE: New page: PIE session: menu (Dec 25, 2015, 12:40:13 AM)
+[2015.12.24-22.40.13:489][280]LogPlayLevel: Creating play world package: /Game/custom/UEDPIE_1_menu
+[2015.12.24-22.40.13:491][280]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002187s)
+[2015.12.24-22.40.13:491][280]LogAIModule: Creating AISystem for world menu
+[2015.12.24-22.40.13:491][280]LogPlayLevel: PIE: World Init took: (0.000550s)
+[2015.12.24-22.40.13:491][280]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/custom/menu.menu to /Game/custom/UEDPIE_1_menu.menu (0.002882s)
+[2015.12.24-22.40.13:506][280]LogInit: XAudio2 using 'HeadPhone/Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.24-22.40.13:530][280]LogInit: FAudioDevice initialized.
+[2015.12.24-22.40.13:567][280]LogWorld: Game class is 'RollingGameMode_C'
+[2015.12.24-22.40.13:569][280]LogWorld: Bringing World /Game/custom/UEDPIE_1_menu.menu up for play (max tick rate 60) at 2015.12.24-23.40.13
+[2015.12.24-22.40.13:569][280]LogActor:Warning: GameSession /Game/custom/UEDPIE_1_menu.menu:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.24-22.40.13:569][280]LogActor:Warning: GameNetworkManager /Game/custom/UEDPIE_1_menu.menu:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.24-22.40.13:569][280]LogWorld: Bringing up level for play took: 0.001086
+[2015.12.24-22.40.13:581][280]LogVoice:Warning: Failed to initialize voice interface
+[2015.12.24-22.40.13:582][280]LogInit: WinSock: Socket queue 131072 / 131072
+[2015.12.24-22.40.13:582][280]LogNet: GameNetDriver IpNetDriver_10 IpNetDriver listening on port 7777
+[2015.12.24-22.40.13:582][280]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2015.12.24-22.40.13:583][280]PIE: Info Play in editor start time for /Game/custom/UEDPIE_1_menu -0.596
+[2015.12.24-22.40.13:585][280]PIE: New page: PIE session: menu (Dec 25, 2015, 12:40:13 AM)
+[2015.12.24-22.40.13:677][280]LogNet: Browse: 127.0.0.1//Game/custom/menu
+[2015.12.24-22.40.13:677][280]LogInit: WinSock: Socket queue 32768 / 32768
+[2015.12.24-22.40.13:677][280]LogNet: Game client on port 7777, rate 10000
+[2015.12.24-22.40.13:677][280]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2791327, ProjectName: rollingderby, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 4264634188
+[2015.12.24-22.40.13:703][280]PIE: Info Play in editor start time for /Game/custom/menu -0.476
+[2015.12.24-22.40.13:705][280]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/custom/menu.menu:PersistentLevel' has LevelScriptBlueprint '/Game/custom/menu.menu:PersistentLevel.menu' with GeneratedClass '/Game/custom/menu.menu_C' with ClassGeneratedBy '/Game/custom/menu.menu:PersistentLevel.menu'
+[2015.12.24-22.40.13:705][280]LogNet: NotifyAcceptingConnection: Server menu accept
+[2015.12.24-22.40.13:705][280]LogNet: Open menu 12/24/15 23:40:13 127.0.0.1
+[2015.12.24-22.40.13:705][280]LogNet: Added client connection.  Remote address = 127.0.0.1:62403
+[2015.12.24-22.40.13:705][280]LogNet: NotifyAcceptingChannel Control 0 server World /Game/custom/UEDPIE_1_menu.menu: Accepted
+[2015.12.24-22.40.13:705][280]LogNet: Remote platform little endian=1
+[2015.12.24-22.40.13:705][280]LogNet: This platform little endian=1
+[2015.12.24-22.40.13:705][280]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2791327, ProjectName: rollingderby, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 4264634188
+[2015.12.24-22.40.13:718][280]LogVoice:Warning: Failed to initialize voice interface
+[2015.12.24-22.40.13:732][281]LogNet: Login request: /Game/custom/menu?Name=MSI-264CC02645D9237BB3BE78A23203BF86 userId: MSI-264CC02645D9237BB3BE78A23203BF86
+[2015.12.24-22.40.13:734][281]LogNet: Welcomed by server (Level: /Game/custom/UEDPIE_1_menu, Game: /Game/RollingBP/Blueprints/RollingGameMode.RollingGameMode_C)
+[2015.12.24-22.40.13:738][281]LogLoad: LoadMap: 127.0.0.1//Game/custom/UEDPIE_1_menu?game=/Game/RollingBP/Blueprints/RollingGameMode.RollingGameMode_C
+[2015.12.24-22.40.13:754][281]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001C5160FAB60
+[2015.12.24-22.40.13:756][281]Cmd: MEM
+[2015.12.24-22.40.13:773][281]LogMemory: Platform Memory Stats for Windows
+[2015.12.24-22.40.13:773][281]LogMemory: Process Physical Memory: 787.48 MB used, 834.21 MB peak
+[2015.12.24-22.40.13:773][281]LogMemory: Process Virtual Memory: 1550.00 MB used, 1628.13 MB peak
+[2015.12.24-22.40.13:773][281]LogMemory: Physical Memory: 7753.27 MB used, 16294.66 MB total
+[2015.12.24-22.40.13:773][281]LogMemory: Virtual Memory: 2770.04 MB used, 134217728.00 MB total
+[2015.12.24-22.40.13:773][281]LogMemory: 
+[2015.12.24-22.40.13:773][281]Allocator Stats for TBB: (not implemented)
+[2015.12.24-22.40.13:776][281]LogWorld: PIE: Copying PIE streaming level from /Game/custom/menu.menu to /Game/custom/UEDPIE_2_menu.menu. OwningWorld: None
+[2015.12.24-22.40.13:777][281]LogAIModule: Creating AISystem for world menu
+[2015.12.24-22.40.13:779][281]LogWorld: Bringing World /Game/custom/UEDPIE_2_menu.menu up for play (max tick rate 60) at 2015.12.24-23.40.13
+[2015.12.24-22.40.13:779][281]LogWorld: Bringing up level for play took: 0.001001
+[2015.12.24-22.40.13:791][282]LogNet: Client netspeed is 10000
+[2015.12.24-22.40.13:791][282]LogNet: Join request: /Game/custom/menu?Name=MSI-264CC02645D9237BB3BE78A23203BF86?SplitscreenCount=1
+[2015.12.24-22.40.13:792][282]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2015.12.24-22.40.13:794][282]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-813.798 Y=0.000 Z=-403766.219] for [PhysicsBallBP_C]
+[2015.12.24-22.40.13:794][282]LogSpawn:Warning: SpawnActor failed because the spawned actor IsPendingKill
+[2015.12.24-22.40.13:794][282]LogGameMode:Warning: Couldn't spawn Pawn of type PhysicsBallBP_C at PlayerStartPIE_4
+[2015.12.24-22.40.13:794][282]LogNet: Join succeeded: MSI-264CC02645D9237B
+[2015.12.24-22.40.13:809][283]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2015.12.24-22.40.13:859][285]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2015.12.24-22.40.16:620][446]LogPackageName: SearchForPackageOnDisk took   0.038s to resolve arena.umap.
+[2015.12.24-22.40.16:659][446]LogPackageName: SearchForPackageOnDisk took   0.038s to resolve arena.umap.
+[2015.12.24-22.40.16:659][446]LogNet: Browse: /Game/custom/arena?listen
+[2015.12.24-22.40.16:659][446]LogLoad: LoadMap: /Game/custom/arena?listen
+[2015.12.24-22.40.16:659][446]LogNet: World NetDriver shutdown IpNetDriver_10 [GameNetDriver]
+[2015.12.24-22.40.16:659][446]LogNet: DestroyNamedNetDriver IpNetDriver_10 [GameNetDriver]
+[2015.12.24-22.40.16:659][446]LogNet: UNetConnection::Cleanup: Closing open connection. Name: IpConnection_13, RemoteAddr: 127.0.0.1:62403 Driver: GameNetDriver, PC: PlayerController_25, Owner: PlayerController_25
+[2015.12.24-22.40.16:659][446]LogNet: UNetConnection::Close: Name: IpConnection_13, Driver: GameNetDriver IpNetDriver_10, PC: PlayerController_25, Owner: PlayerController_25, Channels: 10, RemoteAddr: 127.0.0.1:62403, Time: 2015.12.24-22.40.16
+[2015.12.24-22.40.16:659][446]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_11
+[2015.12.24-22.40.16:659][446]LogExit: GameNetDriver IpNetDriver_10 shut down
+[2015.12.24-22.40.16:674][446]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001C5148A7A60
+[2015.12.24-22.40.16:674][446]Cmd: MEM
+[2015.12.24-22.40.16:689][446]LogMemory: Platform Memory Stats for Windows
+[2015.12.24-22.40.16:689][446]LogMemory: Process Physical Memory: 784.74 MB used, 834.21 MB peak
+[2015.12.24-22.40.16:689][446]LogMemory: Process Virtual Memory: 1529.67 MB used, 1628.13 MB peak
+[2015.12.24-22.40.16:689][446]LogMemory: Physical Memory: 7751.62 MB used, 16294.66 MB total
+[2015.12.24-22.40.16:689][446]LogMemory: Virtual Memory: 2794.04 MB used, 134217728.00 MB total
+[2015.12.24-22.40.16:689][446]LogMemory: 
+[2015.12.24-22.40.16:689][446]Allocator Stats for TBB: (not implemented)
+[2015.12.24-22.40.16:905][446]LogAIModule: Creating AISystem for world arena
+[2015.12.24-22.40.16:906][446]LogWorld: Game class is 'RollingGameMode_C'
+[2015.12.24-22.40.16:907][446]LogInit: WinSock: Socket queue 131072 / 131072
+[2015.12.24-22.40.16:907][446]LogNet: GameNetDriver IpNetDriver_12 IpNetDriver listening on port 7777
+[2015.12.24-22.40.16:931][446]LogWorld: Bringing World /Game/custom/UEDPIE_1_arena.arena up for play (max tick rate 60) at 2015.12.24-23.40.16
+[2015.12.24-22.40.16:931][446]LogActor:Warning: GameSession /Game/custom/UEDPIE_1_arena.arena:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.24-22.40.16:931][446]LogActor:Warning: GameNetworkManager /Game/custom/UEDPIE_1_arena.arena:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.24-22.40.16:931][446]LogWorld: Bringing up level for play took: 0.023622
+[2015.12.24-22.40.16:932][446]LogOnline:Warning: NULL: Can't start an online session (Game) in state InProgress
+[2015.12.24-22.40.16:941][446]LogNet:Warning: Network Failure: GameNetDriver[FailureReceived]: Host closed the connection.
+[2015.12.24-22.40.16:941][446]LogNet:Warning: Network Failure: GameNetDriver[FailureReceived]: Host closed the connection.
+[2015.12.24-22.40.16:941][446]LogNet: NetworkFailure: FailureReceived, Error: 'Host closed the connection.'
+[2015.12.24-22.40.16:941][446]LogNet: UNetConnection::Close: Name: IpConnection_12, Driver: GameNetDriver IpNetDriver_11, PC: PlayerController_26, Owner: PlayerController_26, Channels: 10, RemoteAddr: 127.0.0.1:7777, Time: 2015.12.24-22.40.16
+[2015.12.24-22.40.16:941][446]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_10
+[2015.12.24-22.40.16:941][446]LogNet:Warning: Network Failure: GameNetDriver[ConnectionLost]: Your connection to the host has been lost.
+[2015.12.24-22.40.16:941][446]LogNet:Warning: Network Failure: GameNetDriver[ConnectionLost]: Your connection to the host has been lost.
+[2015.12.24-22.40.16:941][446]LogNet: NetworkFailure: ConnectionLost, Error: 'Your connection to the host has been lost.'
+[2015.12.24-22.40.16:941][446]LogNet:Warning: FObjectReplicator::UpdateUnmappedObjects: Connection->State == USOCK_Closed
+[2015.12.24-22.40.16:941][446]LogNet:Warning: FObjectReplicator::UpdateUnmappedObjects: Connection->State == USOCK_Closed
+[2015.12.24-22.40.16:949][447]LogNet: NotifyAcceptingConnection: Server arena accept
+[2015.12.24-22.40.16:949][447]LogNet: Open arena 12/24/15 23:40:16 127.0.0.1
+[2015.12.24-22.40.16:949][447]LogNet: Added client connection.  Remote address = 127.0.0.1:62403
+[2015.12.24-22.40.16:949][447]LogNetTraffic:Warning: High single frame packet loss: 19
+[2015.12.24-22.40.16:949][447]LogSecurity:Warning: 127.0.0.1:62403: Malformed_Packet: UNetConnection::ReceivedPacket: Received control channel close before open
+[2015.12.24-22.40.16:949][447]LogSecurity:Warning: 127.0.0.1:62403: Closed: Connection closed
+[2015.12.24-22.40.16:949][447]LogNet: UNetConnection::Close: Name: IpConnection_14, Driver: GameNetDriver IpNetDriver_12, PC: NULL, Owner: NULL, Channels: 2, RemoteAddr: 127.0.0.1:62403, Time: 2015.12.24-22.40.16
+[2015.12.24-22.40.16:949][447]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_12
+[2015.12.24-22.40.16:954][447]LogNet: Browse: /Game/custom/menu?closed
+[2015.12.24-22.40.16:954][447]LogNet: Failed; returning to Entry
+[2015.12.24-22.40.16:982][447]LogLoad: LoadMap: /Game/custom/menu?closed
+[2015.12.24-22.40.16:982][447]LogNet: World NetDriver shutdown IpNetDriver_11 [GameNetDriver]
+[2015.12.24-22.40.16:982][447]LogNet: DestroyNamedNetDriver IpNetDriver_11 [GameNetDriver]
+[2015.12.24-22.40.16:982][447]LogExit: GameNetDriver IpNetDriver_11 shut down
+[2015.12.24-22.40.16:996][447]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001C515B35260
+[2015.12.24-22.40.16:999][447]Cmd: MEM
+[2015.12.24-22.40.17:013][447]LogMemory: Platform Memory Stats for Windows
+[2015.12.24-22.40.17:013][447]LogMemory: Process Physical Memory: 801.94 MB used, 834.21 MB peak
+[2015.12.24-22.40.17:013][447]LogMemory: Process Virtual Memory: 1630.04 MB used, 1630.05 MB peak
+[2015.12.24-22.40.17:013][447]LogMemory: Physical Memory: 7774.76 MB used, 16294.66 MB total
+[2015.12.24-22.40.17:013][447]LogMemory: Virtual Memory: 2822.04 MB used, 134217728.00 MB total
+[2015.12.24-22.40.17:013][447]LogMemory: 
+[2015.12.24-22.40.17:013][447]Allocator Stats for TBB: (not implemented)
+[2015.12.24-22.40.17:013][447]LogPlayLevel: Creating play world package: /Game/custom/UEDPIE_2_menu
+[2015.12.24-22.40.17:015][447]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002145s)
+[2015.12.24-22.40.17:016][447]LogAIModule: Creating AISystem for world menu
+[2015.12.24-22.40.17:016][447]LogPlayLevel: PIE: World Init took: (0.000671s)
+[2015.12.24-22.40.17:016][447]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/custom/menu.menu to /Game/custom/UEDPIE_2_menu.menu (0.003024s)
+[2015.12.24-22.40.17:016][447]LogWorld: Game class is 'RollingGameMode_C'
+[2015.12.24-22.40.17:018][447]LogWorld: Bringing World /Game/custom/UEDPIE_2_menu.menu up for play (max tick rate 60) at 2015.12.24-23.40.17
+[2015.12.24-22.40.17:018][447]LogActor:Warning: GameSession /Game/custom/UEDPIE_2_menu.menu:PersistentLevel.GameSession_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.24-22.40.17:018][447]LogActor:Warning: GameNetworkManager /Game/custom/UEDPIE_2_menu.menu:PersistentLevel.GameNetworkManager_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.24-22.40.17:019][447]LogWorld: Bringing up level for play took: 0.001350
+[2015.12.24-22.40.17:019][447]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.12.24-22.40.17:019][447]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2015.12.24-22.40.17:043][448]LogNet: NotifyAcceptingConnection: Server arena accept
+[2015.12.24-22.40.17:043][448]LogNet: Open arena 12/24/15 23:40:17 127.0.0.1
+[2015.12.24-22.40.17:043][448]LogNet: Added client connection.  Remote address = 127.0.0.1:62403
+[2015.12.24-22.40.17:043][448]LogNetTraffic:Warning: High single frame packet loss: 20
+[2015.12.24-22.40.17:260][461]LogNet: UNetConnection::Cleanup: Closing open connection. Name: IpConnection_15, RemoteAddr: 127.0.0.1:62403 Driver: GameNetDriver, PC: NoPC, Owner: No Owner
+[2015.12.24-22.40.17:260][461]LogNet: UNetConnection::Close: Name: IpConnection_15, Driver: GameNetDriver IpNetDriver_12, PC: NULL, Owner: NULL, Channels: 1, RemoteAddr: 127.0.0.1:62403, Time: 2015.12.24-22.40.17
+[2015.12.24-22.40.21:511][716]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/custom/menu.menu:PersistentLevel' has LevelScriptBlueprint '/Game/custom/menu.menu:PersistentLevel.menu' with GeneratedClass '/Game/custom/menu.menu_C' with ClassGeneratedBy '/Game/custom/menu.menu:PersistentLevel.menu'
+[2015.12.24-22.40.21:559][716]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2015.12.24-22.40.21:591][716]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2015.12.24-22.40.21:591][716]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2015.12.24-22.40.21:591][716]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/custom/menu.menu:PersistentLevel' has LevelScriptBlueprint '/Game/custom/menu.menu:PersistentLevel.menu' with GeneratedClass '/Game/custom/menu.menu_C' with ClassGeneratedBy '/Game/custom/menu.menu:PersistentLevel.menu'
+[2015.12.24-22.40.21:609][716]LogExit: GameNetDriver None shut down
+[2015.12.24-22.40.21:611][716]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001C521D23240
+[2015.12.24-22.40.21:619][716]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001C515C6B2E0
+[2015.12.24-22.40.21:638][717]LogPlayLevel:Display: Destroying online subsystem :Context_13
+[2015.12.24-22.40.21:638][717]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2015.12.24-22.40.21:638][717]LogPlayLevel:Display: Destroying online subsystem :Context_12
+[2015.12.24-22.40.21:638][717]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2015.12.24-22.40.22:771][774]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/custom/menu" FILE="../../../../../../rollingderby/RollingDerby/RollingDerby/Content/custom/menu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.12.24-22.40.23:032][774]LogSavePackage: Save=206.795074ms
+[2015.12.24-22.40.23:032][774]LogSavePackage: Moving '../../../../../../rollingderby/RollingDerby/RollingDerby/Saved/menu6E29A62B4978D7F2DD95BAB835570740.tmp' to '../../../../../../rollingderby/RollingDerby/RollingDerby/Content/custom/menu.umap'
+[2015.12.24-22.40.23:036][774]LogSavePackage: Total save time: 234.936170ms
+[2015.12.24-22.40.23:036][774]LogSavePackage:Display: Finished SavePackage ../../../../../../rollingderby/RollingDerby/RollingDerby/Content/custom/menu.umap
+[2015.12.24-22.40.23:071][774]LogFileHelpers: Saving map 'menu' took 0.354
+[2015.12.24-22.40.25:753][894]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.24-22.40.26:543][894]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 107 classes and 0 folders.
+[2015.12.24-22.40.29:880][990]LogAIModule: Creating AISystem for world arena
+[2015.12.24-22.40.29:935][990]Cmd: MAP LOAD FILE="../../../../../../rollingderby/RollingDerby/RollingDerby/Content/custom/arena.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.24-22.40.29:935][990]LightingResults: New page: Lighting Build
+[2015.12.24-22.40.29:953][990]LoadErrors: New page: Loading map: arena.umap
+[2015.12.24-22.40.30:115][990]MapCheck: New page: Map Check
+[2015.12.24-22.40.30:115][990]LightingResults: New page: Lighting Build
+[2015.12.24-22.40.30:140][990]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001C5326DD3A0
+[2015.12.24-22.40.30:140][990]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001C521D23EC0
+[2015.12.24-22.40.30:157][990]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.24-22.40.30:187][990]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.24-22.40.30:229][990]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 41.512ms to complete.
+[2015.12.24-22.40.30:229][990]LogFileHelpers: Loading map 'arena' took 0.295
+[2015.12.24-22.40.54:303][377]BlueprintLog: New page: Compile arena
+[2015.12.24-22.40.54:403][377]BlueprintEditorCompileResults: Info [0906.50] Compile of arena successful! [in 99 ms]
+[2015.12.24-22.40.55:658][446]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/custom/arena" FILE="../../../../../../rollingderby/RollingDerby/RollingDerby/Content/custom/arena.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.12.24-22.40.56:104][446]LogSavePackage: Save=409.987183ms
+[2015.12.24-22.40.56:104][446]LogSavePackage: Moving '../../../../../../rollingderby/RollingDerby/RollingDerby/Saved/arena1EADB9D44498DCCC3547FCBB697F9686.tmp' to '../../../../../../rollingderby/RollingDerby/RollingDerby/Content/custom/arena.umap'
+[2015.12.24-22.40.56:107][446]LogSavePackage: Total save time: 424.115404ms
+[2015.12.24-22.40.56:107][446]LogSavePackage:Display: Finished SavePackage ../../../../../../rollingderby/RollingDerby/RollingDerby/Content/custom/arena.umap
+[2015.12.24-22.40.56:139][446]LogFileHelpers: Saving map 'arena' took 0.528
+[2015.12.24-22.40.58:934][606]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/custom/arena.arena:PersistentLevel' has LevelScriptBlueprint '/Game/custom/arena.arena:PersistentLevel.arena' with GeneratedClass '/Game/custom/arena.arena_C' with ClassGeneratedBy '/Game/custom/arena.arena:PersistentLevel.arena'
+[2015.12.24-22.40.58:934][606]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.24-22.40.58:935][606]PIE: New page: PIE session: arena (Dec 25, 2015, 12:40:58 AM)
+[2015.12.24-22.40.58:935][606]LogPlayLevel: Creating play world package: /Game/custom/UEDPIE_1_arena
+[2015.12.24-22.40.59:030][606]LogPlayLevel: PIE: StaticDuplicateObject took: (0.094407s)
+[2015.12.24-22.40.59:030][606]LogAIModule: Creating AISystem for world arena
+[2015.12.24-22.40.59:031][606]LogPlayLevel: PIE: World Init took: (0.000720s)
+[2015.12.24-22.40.59:031][606]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/custom/arena.arena to /Game/custom/UEDPIE_1_arena.arena (0.095393s)
+[2015.12.24-22.40.59:060][606]LogInit: XAudio2 using 'HeadPhone/Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.24-22.40.59:085][606]LogInit: FAudioDevice initialized.
+[2015.12.24-22.40.59:123][606]LogWorld: Game class is 'RollingGameMode_C'
+[2015.12.24-22.40.59:147][606]LogWorld: Bringing World /Game/custom/UEDPIE_1_arena.arena up for play (max tick rate 60) at 2015.12.24-23.40.59
+[2015.12.24-22.40.59:148][606]LogActor:Warning: GameSession /Game/custom/UEDPIE_1_arena.arena:PersistentLevel.GameSession_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.24-22.40.59:148][606]LogActor:Warning: GameNetworkManager /Game/custom/UEDPIE_1_arena.arena:PersistentLevel.GameNetworkManager_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.24-22.40.59:148][606]LogWorld: Bringing up level for play took: 0.023520
+[2015.12.24-22.40.59:159][606]LogVoice:Warning: Failed to initialize voice interface
+[2015.12.24-22.40.59:160][606]LogInit: WinSock: Socket queue 131072 / 131072
+[2015.12.24-22.40.59:160][606]LogNet: GameNetDriver IpNetDriver_13 IpNetDriver listening on port 7777
+[2015.12.24-22.40.59:161][606]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2015.12.24-22.40.59:165][606]PIE: Info Play in editor start time for /Game/custom/UEDPIE_1_arena 0.986
+[2015.12.24-22.40.59:167][606]PIE: New page: PIE session: arena (Dec 25, 2015, 12:40:59 AM)
+[2015.12.24-22.40.59:277][606]LogNet: Browse: 127.0.0.1//Game/custom/menu
+[2015.12.24-22.40.59:277][606]LogInit: WinSock: Socket queue 32768 / 32768
+[2015.12.24-22.40.59:278][606]LogNet: Game client on port 7777, rate 10000
+[2015.12.24-22.40.59:278][606]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2791327, ProjectName: rollingderby, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 4264634188
+[2015.12.24-22.40.59:326][606]PIE: Info Play in editor start time for /Game/custom/menu 1.147
+[2015.12.24-22.40.59:328][606]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/custom/arena.arena:PersistentLevel' has LevelScriptBlueprint '/Game/custom/arena.arena:PersistentLevel.arena' with GeneratedClass '/Game/custom/arena.arena_C' with ClassGeneratedBy '/Game/custom/arena.arena:PersistentLevel.arena'
+[2015.12.24-22.40.59:328][606]LogNet: NotifyAcceptingConnection: Server arena accept
+[2015.12.24-22.40.59:328][606]LogNet: Open arena 12/24/15 23:40:59 127.0.0.1
+[2015.12.24-22.40.59:328][606]LogNet: Added client connection.  Remote address = 127.0.0.1:65004
+[2015.12.24-22.40.59:328][606]LogNet: NotifyAcceptingChannel Control 0 server World /Game/custom/UEDPIE_1_arena.arena: Accepted
+[2015.12.24-22.40.59:329][606]LogNet: Remote platform little endian=1
+[2015.12.24-22.40.59:329][606]LogNet: This platform little endian=1
+[2015.12.24-22.40.59:329][606]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2791327, ProjectName: rollingderby, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 4264634188
+[2015.12.24-22.40.59:347][606]LogVoice:Warning: Failed to initialize voice interface
+[2015.12.24-22.40.59:365][607]LogNet: Login request: /Game/custom/menu?Name=MSI-48BF6AD8422B7B3DE3169A917BC6A263 userId: MSI-48BF6AD8422B7B3DE3169A917BC6A263
+[2015.12.24-22.40.59:371][607]LogNet: Welcomed by server (Level: /Game/custom/UEDPIE_1_arena, Game: /Game/RollingBP/Blueprints/RollingGameMode.RollingGameMode_C)
+[2015.12.24-22.40.59:431][607]LogLoad: LoadMap: 127.0.0.1//Game/custom/UEDPIE_1_arena?game=/Game/RollingBP/Blueprints/RollingGameMode.RollingGameMode_C
+[2015.12.24-22.40.59:464][607]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001C517072FC0
+[2015.12.24-22.40.59:470][607]Cmd: MEM
+[2015.12.24-22.40.59:499][607]LogMemory: Platform Memory Stats for Windows
+[2015.12.24-22.40.59:499][607]LogMemory: Process Physical Memory: 937.10 MB used, 948.40 MB peak
+[2015.12.24-22.40.59:499][607]LogMemory: Process Virtual Memory: 1806.44 MB used, 1806.44 MB peak
+[2015.12.24-22.40.59:499][607]LogMemory: Physical Memory: 7945.82 MB used, 16294.66 MB total
+[2015.12.24-22.40.59:499][607]LogMemory: Virtual Memory: 3032.65 MB used, 134217728.00 MB total
+[2015.12.24-22.40.59:499][607]LogMemory: 
+[2015.12.24-22.40.59:499][607]Allocator Stats for TBB: (not implemented)
+[2015.12.24-22.40.59:554][607]LogWorld: PIE: Copying PIE streaming level from /Game/custom/arena.arena to /Game/custom/UEDPIE_2_arena.arena. OwningWorld: None
+[2015.12.24-22.40.59:555][607]LogAIModule: Creating AISystem for world arena
+[2015.12.24-22.40.59:615][607]LogWorld: Bringing World /Game/custom/UEDPIE_2_arena.arena up for play (max tick rate 60) at 2015.12.24-23.40.59
+[2015.12.24-22.40.59:616][607]LogWorld: Bringing up level for play took: 0.059809
+[2015.12.24-22.40.59:627][608]LogNet: Client netspeed is 10000
+[2015.12.24-22.40.59:627][608]LogNet: Join request: /Game/custom/menu?Name=MSI-48BF6AD8422B7B3DE3169A917BC6A263?SplitscreenCount=1
+[2015.12.24-22.40.59:628][608]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2015.12.24-22.40.59:629][608]LogNet: Join succeeded: MSI-48BF6AD8422B7B3D
+[2015.12.24-22.40.59:687][609]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2015.12.24-22.40.59:687][609]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2015.12.24-22.41.03:676][838]LogBlueprintUserMessages: [PhysicsBallBP_C_43] Client 1: Collision! V1: 892305.625 V2: 0.0
+[2015.12.24-22.41.03:676][838]LogBlueprintUserMessages: [PhysicsBallBP_C_42] Client 1: Collision! V1: 0.0 V2: 892305.625
+[2015.12.24-22.41.03:676][838]LogScript:Warning: Accessed None 'CallFunc_GetController_ReturnValue'
+	PhysicsBallBP_C /Game/custom/UEDPIE_2_arena.arena:PersistentLevel.PhysicsBallBP_C_43
+	Function /Game/RollingBP/Blueprints/PhysicsBallBP.PhysicsBallBP_C:death:0021
+[2015.12.24-22.41.03:676][838]PIE:Error: Error Accessed None 'CallFunc_GetController_ReturnValue' from node Un Possess in graph 'death' in blueprint PhysicsBallBP
+[2015.12.24-22.41.51:315][696]LogActor:Warning: TemplateCube_Rounded85 is outside the world bounds!
+[2015.12.24-22.41.51:966][735]LogActor:Warning: TemplateCube_Rounded211 is outside the world bounds!
+[2015.12.24-22.41.52:949][794]LogActor:Warning: TemplateCube_Rounded192 is outside the world bounds!
+[2015.12.24-22.42.01:459][287]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/custom/arena.arena:PersistentLevel' has LevelScriptBlueprint '/Game/custom/arena.arena:PersistentLevel.arena' with GeneratedClass '/Game/custom/arena.arena_C' with ClassGeneratedBy '/Game/custom/arena.arena:PersistentLevel.arena'
+[2015.12.24-22.42.01:516][287]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2015.12.24-22.42.01:517][287]LogOnline:Warning: NULL: No game present to leave for session (Game)
+[2015.12.24-22.42.01:517][287]LogSpawn:Warning: SpawnActor failed because we are in the process of tearing down the world
+[2015.12.24-22.42.01:548][287]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2015.12.24-22.42.01:548][287]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2015.12.24-22.42.01:549][287]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/custom/arena.arena:PersistentLevel' has LevelScriptBlueprint '/Game/custom/arena.arena:PersistentLevel.arena' with GeneratedClass '/Game/custom/arena.arena_C' with ClassGeneratedBy '/Game/custom/arena.arena:PersistentLevel.arena'
+[2015.12.24-22.42.01:576][287]LogNet: UChannel::CleanUp: [GameNetDriver] [PlayerController_31] [PlayerController_31]. ChIndex == 0. Closing connection.
+[2015.12.24-22.42.01:576][287]LogNet: UNetConnection::Close: Name: IpConnection_17, Driver: GameNetDriver IpNetDriver_13, PC: PlayerController_31, Owner: PlayerController_31, Channels: 11, RemoteAddr: 127.0.0.1:65004, Time: 2015.12.24-22.42.01
+[2015.12.24-22.42.01:576][287]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_14
+[2015.12.24-22.42.01:576][287]LogNet: UChannel::CleanUp: [GameNetDriver] [PlayerController_32] [PlayerController_32]. ChIndex == 0. Closing connection.
+[2015.12.24-22.42.01:576][287]LogNet: UNetConnection::Close: Name: IpConnection_16, Driver: GameNetDriver IpNetDriver_14, PC: PlayerController_32, Owner: PlayerController_32, Channels: 11, RemoteAddr: 127.0.0.1:7777, Time: 2015.12.24-22.42.01
+[2015.12.24-22.42.01:576][287]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_13
+[2015.12.24-22.42.01:588][287]LogExit: GameNetDriver None shut down
+[2015.12.24-22.42.01:588][287]LogExit: GameNetDriver None shut down
+[2015.12.24-22.42.01:589][287]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001C521D22F20
+[2015.12.24-22.42.01:590][287]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001C58C59AE80
+[2015.12.24-22.42.01:660][288]LogPlayLevel:Display: Destroying online subsystem :Context_17
+[2015.12.24-22.42.01:660][288]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2015.12.24-22.42.01:660][288]LogPlayLevel:Display: Destroying online subsystem :Context_16
+[2015.12.24-22.42.01:660][288]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2015.12.24-22.42.08:511][636]BlueprintLog: New page: Compile massPowerUp
+[2015.12.24-22.42.08:650][636]BlueprintEditorCompileResults: Info [0980.75] Compile of massPowerUp successful! [in 138 ms]
+[2015.12.24-22.42.11:199][778]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/custom/massPowerUp" FILE="../../../../../../rollingderby/RollingDerby/RollingDerby/Content/custom/massPowerUp.uasset" SILENT=true
+[2015.12.24-22.42.11:278][778]LogSavePackage: Save=71.542267ms
+[2015.12.24-22.42.11:278][778]LogSavePackage: Moving '../../../../../../rollingderby/RollingDerby/RollingDerby/Saved/massPowerUp6C60917247A79BB0E34CA5A449655DAE.tmp' to '../../../../../../rollingderby/RollingDerby/RollingDerby/Content/custom/massPowerUp.uasset'
+[2015.12.24-22.42.11:279][778]LogSavePackage: Total save time: 79.433639ms
+[2015.12.24-22.42.11:279][778]LogSavePackage:Display: Finished SavePackage ../../../../../../rollingderby/RollingDerby/RollingDerby/Content/custom/massPowerUp.uasset
+[2015.12.24-22.42.14:281][937]BlueprintLog: New page: Compile speedPowerUp
+[2015.12.24-22.42.14:372][937]BlueprintEditorCompileResults: Info [0986.47] Compile of speedPowerUp successful! [in 90 ms]
+[2015.12.24-22.42.26:391][588]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/custom/speedPowerUp" FILE="../../../../../../rollingderby/RollingDerby/RollingDerby/Content/custom/speedPowerUp.uasset" SILENT=true
+[2015.12.24-22.42.26:432][588]LogSavePackage: Save=34.008560ms
+[2015.12.24-22.42.26:432][588]LogSavePackage: Moving '../../../../../../rollingderby/RollingDerby/RollingDerby/Saved/speedPowerUp80ECE9C94CD8AD3F246B7FB54516E6C4.tmp' to '../../../../../../rollingderby/RollingDerby/RollingDerby/Content/custom/speedPowerUp.uasset'
+[2015.12.24-22.42.26:434][588]LogSavePackage: Total save time: 40.913858ms
+[2015.12.24-22.42.26:434][588]LogSavePackage:Display: Finished SavePackage ../../../../../../rollingderby/RollingDerby/RollingDerby/Content/custom/speedPowerUp.uasset
+[2015.12.24-22.42.36:721][185]BlueprintLog: New page: Compile destructibleBall
+[2015.12.24-22.42.36:810][185]BlueprintEditorCompileResults: Info [1008.91] Compile of destructibleBall successful! [in 89 ms]
+[2015.12.24-22.42.37:595][223]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RollingBP/Blueprints/destructibleBall" FILE="../../../../../../rollingderby/RollingDerby/RollingDerby/Content/RollingBP/Blueprints/destructibleBall.uasset" SILENT=true
+[2015.12.24-22.42.37:618][223]LogSavePackage: Save=16.899984ms
+[2015.12.24-22.42.37:618][223]LogSavePackage: Moving '../../../../../../rollingderby/RollingDerby/RollingDerby/Saved/destructibleBall58D58ABF4F0B18A77C00E1B2C99EB2E6.tmp' to '../../../../../../rollingderby/RollingDerby/RollingDerby/Content/RollingBP/Blueprints/destructibleBall.uasset'
+[2015.12.24-22.42.37:620][223]LogSavePackage: Total save time: 24.409331ms
+[2015.12.24-22.42.37:620][223]LogSavePackage:Display: Finished SavePackage ../../../../../../rollingderby/RollingDerby/RollingDerby/Content/RollingBP/Blueprints/destructibleBall.uasset
+[2015.12.24-22.42.42:562][502]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/custom/arena" FILE="../../../../../../rollingderby/RollingDerby/RollingDerby/Saved/Autosaves/Game/custom/UEDPCarena.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2015.12.24-22.42.42:856][502]LogSavePackage: Save=290.095184ms
+[2015.12.24-22.42.42:856][502]LogSavePackage: Moving '../../../../../../rollingderby/RollingDerby/RollingDerby/Saved/UEDPCarena3F86544F40BFE797CA63AAA8F1A300A7.tmp' to '../../../../../../rollingderby/RollingDerby/RollingDerby/Saved/Autosaves/Game/custom/UEDPCarena.umap'
+[2015.12.24-22.42.42:857][502]LogSavePackage: Total save time: 293.636531ms
+[2015.12.24-22.42.42:857][502]LogSavePackage:Display: Finished SavePackage ../../../../../../rollingderby/RollingDerby/RollingDerby/Saved/Autosaves/Game/custom/UEDPCarena.umap
+[2015.12.24-22.43.44:066][888]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2015.12.24-22.43.44:131][888]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2015.12.24-22.43.44:196][888]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2015.12.24-22.43.50:133][ 90]MainFrameActions: Packaging (Windows (64-bit)): Running AutomationTool...
+[2015.12.24-22.43.50:390][105]MainFrameActions: Packaging (Windows (64-bit)): Program.Main: CWD=D:\Program Files (x86)\Epic Games\4.10\Engine\Binaries\DotNET
+[2015.12.24-22.43.50:422][107]MainFrameActions: Packaging (Windows (64-bit)): Automation.ParseCommandLine: Parsing command line: BuildCookRun -rocket -nocompile -nocompileeditor -installed -nop4 -project=D:/rollingderby/RollingDerby/RollingDerby/RollingDerby.uproject -cook -stage -archive -archivedirectory=C:/Users/tobia/Desktop -package -clientconfig=Development -ue4exe=UE4Editor-Cmd.exe -pak -prereqs -nodebuginfo -targetplatform=Win64 -build -CrashReporter -utf8output
+[2015.12.24-22.43.50:422][107]MainFrameActions: Packaging (Windows (64-bit)): Automation.Process: IsBuildMachine=False
+[2015.12.24-22.43.50:422][107]MainFrameActions: Packaging (Windows (64-bit)): Automation.Process: ShouldKillProcesses=True
+[2015.12.24-22.43.50:422][107]MainFrameActions: Packaging (Windows (64-bit)): Automation.Process: Setting up command environment.
+[2015.12.24-22.43.50:422][107]MainFrameActions: Packaging (Windows (64-bit)): CommandUtils.SetEnvVar: SetEnvVar uebp_EngineSavedFolder=D:/Program Files (x86)/Epic Games/4.10/Engine/Programs/AutomationTool/Saved
+[2015.12.24-22.43.50:439][108]MainFrameActions: Packaging (Windows (64-bit)): WindowsHostPlatform.SetFrameworkVars: Setting .Net Framework environment variables.
+[2015.12.24-22.43.50:439][108]MainFrameActions: Packaging (Windows (64-bit)): WindowsHostPlatform.SetFrameworkVars: Supports64bitExecutables=True
+[2015.12.24-22.43.50:439][108]MainFrameActions: Packaging (Windows (64-bit)): WindowsPlatform.get_Compiler: WARNING: Visual C++ 2015 toolchain does not appear to be correctly installed. Please verify that "Common Tools for Visual C++ 2015" was selected when installing Visual Studio 2015.
+[2015.12.24-22.43.50:439][108]MainFrameActions: Packaging (Windows (64-bit)): WindowsHostPlatform.SetFrameworkVars: WindowsPlatform.CompilerVisualStudio2015
+[2015.12.24-22.43.50:439][108]MainFrameActions: Packaging (Windows (64-bit)): CommandEnvironment.SetupBuildEnvironment: WARNING: SetFrameworkVars failed. Assuming no compilation capability.
+[2015.12.24-22.43.50:439][108]MainFrameActions: Packaging (Windows (64-bit)): ProjectUtils.CleanupFolders: Cleaning up project rules folder
+[2015.12.24-22.43.50:455][109]MainFrameActions: Packaging (Windows (64-bit)): Automation.Process: Compiling scripts.
+[2015.12.24-22.43.50:555][115]MainFrameActions: Packaging (Windows (64-bit)): ScriptCompiler.LoadPreCompiledScriptAssemblies: Loading precompiled script DLLs
+[2015.12.24-22.43.50:555][115]MainFrameActions: Packaging (Windows (64-bit)): ScriptCompiler.LoadPreCompiledScriptAssemblies: Found 9 script DLL(s).
+[2015.12.24-22.43.50:889][135]MainFrameActions: Packaging (Windows (64-bit)): BuildCookRun.SetupParams: Setting up ProjectParams for D:\rollingderby\RollingDerby\RollingDerby\RollingDerby.uproject
+[2015.12.24-22.43.51:226][155]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: Project Params **************
+[2015.12.24-22.43.51:226][155]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: AdditionalServerMapParams=
+[2015.12.24-22.43.51:226][155]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: Archive=True
+[2015.12.24-22.43.51:226][155]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: ArchiveMetaData=False
+[2015.12.24-22.43.51:226][155]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: CreateAppBundle=True
+[2015.12.24-22.43.51:226][155]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: BaseArchiveDirectory=C:\Users\tobia\Desktop
+[2015.12.24-22.43.51:242][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: BaseStageDirectory=D:\rollingderby\RollingDerby\RollingDerby\Saved\StagedBuilds
+[2015.12.24-22.43.51:242][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: Build=True
+[2015.12.24-22.43.51:242][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: Cook=True
+[2015.12.24-22.43.51:242][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: Clean=
+[2015.12.24-22.43.51:242][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: Client=False
+[2015.12.24-22.43.51:242][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: ClientConfigsToBuild=Development
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: ClientCookedTargets=RollingDerby
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: ClientTargetPlatform=Win64
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: Compressed=False
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: UseDebugParamForEditorExe=False
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: CookFlavor=
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: CookOnTheFly=False
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: CookOnTheFlyStreaming=False
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: UnversionedCookedContent=False
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: SkipCookingEditorContent=False
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: NumCookersToSpawn=0
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: GeneratePatch=False
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: CreateReleaseVersion=
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: BasedOnReleaseVersion=
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: DLCName=
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: DLCIncludeEngineContent=False
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: AdditionalCookerOptions=
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: DedicatedServer=False
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: DirectoriesToCook=
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: CulturesToCook=
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: EditorTargets=
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: Foreign=False
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: IsCodeBasedProject=True
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: IsProgramTarget=False
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: IterativeCooking=False
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: CookAll=False
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: CookMapsOnly=False
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: Deploy=False
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: IterativeDeploy=False
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: FastCook=False
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: LogWindow=False
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: Manifests=False
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: MapToRun=
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: NoClient=False
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: NumClients=0
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: NoDebugInfo=True
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: NoCleanStage=False
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: NoXGE=False
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: MapsToCook=
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: Pak=True
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: Package=True
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: NullRHI=False
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: FakeClient=False
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: EditorTest=False
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: RunAutomationTests=False
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: RunAutomationTest=
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: RunTimeoutSeconds=0
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: CrashIndex=0
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: ProgramTargets=
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: ProjectBinariesFolder=D:\rollingderby\RollingDerby\RollingDerby\Binaries\Win64
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: ProjectBinariesPath=D:\rollingderby\RollingDerby\RollingDerby\Binaries\Win64
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: ProjectGameExeFilename=D:\rollingderby\RollingDerby\RollingDerby\Binaries\Win64\RollingDerby.exe
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: ProjectGameExePath=D:\rollingderby\RollingDerby\RollingDerby\Binaries\Win64\RollingDerby.exe
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: Distribution=False
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: Prebuilt=False
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: Prereqs=True
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: NoBootstrapExe=False
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: RawProjectPath=D:\rollingderby\RollingDerby\RollingDerby\RollingDerby.uproject
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: Rocket=True
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: Run=False
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: ServerConfigsToBuild=Development
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: ServerCookedTargets=
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: ServerTargetPlatform=Win64
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: ShortProjectName=RollingDerby
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: SignedPak=False
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: SignPak=
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: SkipCook=False
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: SkipCookOnTheFly=False
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: SkipPak=False
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: SkipStage=False
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: Stage=True
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: bUsesSteam=False
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: bUsesCEF3=False
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: bUsesSlate=True
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: bDebugBuildsActuallyUseDebugCRT=False
+[2015.12.24-22.43.51:243][156]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: Project Params **************
+[2015.12.24-22.43.51:258][157]MainFrameActions: Packaging (Windows (64-bit)): Project.Build: ********** BUILD COMMAND STARTED **********
+[2015.12.24-22.43.51:274][158]MainFrameActions: Packaging (Windows (64-bit)): BuildCommand.Execute: ERROR: BUILD FAILED
+[2015.12.24-22.43.51:274][158]MainFrameActions: Packaging (Windows (64-bit)): Program.Main: ERROR: AutomationTool terminated with exception:
+[2015.12.24-22.43.51:274][158]MainFrameActions: Packaging (Windows (64-bit)): Program.Main: ERROR: Exception in AutomationUtils.Automation: You are attempting to compile on a machine that does not have a supported compiler!
+[2015.12.24-22.43.51:274][158]MainFrameActions: Packaging (Windows (64-bit)): Stacktrace:    vid AutomationTool.UE4Build.Build(BuildAgenda Agenda, Nullable`1 InDeleteBuildProducts, Boolean InUpdateVersionFiles, Boolean InForceNoXGE, Boolean InUseParallelExecutor, Boolean InForceNonUnity, Boolean InForceUnity, Boolean InShowProgress, Dictionary`2 PlatformEnvVars)
+[2015.12.24-22.43.51:274][158]MainFrameActions: Packaging (Windows (64-bit)):    vid Project.Build(BuildCommand Command, ProjectParams Params, Int32 WorkingCL)
+[2015.12.24-22.43.51:274][158]MainFrameActions: Packaging (Windows (64-bit)):    vid BuildCookRun.DoBuildCookRun(ProjectParams Params)
+[2015.12.24-22.43.51:274][158]MainFrameActions: Packaging (Windows (64-bit)):    vid BuildCommand.Execute()
+[2015.12.24-22.43.51:274][158]MainFrameActions: Packaging (Windows (64-bit)):    vid AutomationTool.Automation.Execute(List`1 CommandsToExecute, CaselessDictionary`1 Commands)
+[2015.12.24-22.43.51:274][158]MainFrameActions: Packaging (Windows (64-bit)):    vid AutomationTool.Automation.Process(String[] CommandLine)
+[2015.12.24-22.43.51:274][158]MainFrameActions: Packaging (Windows (64-bit)):    vid AutomationTool.Program.MainProc(Object Param)
+[2015.12.24-22.43.51:274][158]MainFrameActions: Packaging (Windows (64-bit)):    vid AutomationTool.InternalUtils.RunSingleInstance(Action`1 Main, Object Param)
+[2015.12.24-22.43.51:274][158]MainFrameActions: Packaging (Windows (64-bit)):    vid AutomationTool.Program.Main()
+[2015.12.24-22.43.51:292][159]MainFrameActions: Packaging (Windows (64-bit)): ProcessManager.KillAll: Trying to kill 0 spawned processes.
+[2015.12.24-22.43.51:292][159]MainFrameActions: Packaging (Windows (64-bit)): Program.Main: AutomationTool exiting with ExitCode=Error_Unknown
+[2015.12.24-22.43.51:292][159]MainFrameActions: Packaging (Windows (64-bit)): Domain_ProcessExit
+[2015.12.24-22.43.51:311][160]MainFrameActions: Packaging (Windows (64-bit)): copying UAT log files...
+[2015.12.24-22.43.51:311][160]MainFrameActions: Packaging (Windows (64-bit)): RunUAT.bat ERROR: AutomationTool was unable to run successfully.
+[2015.12.24-22.43.51:311][160]MainFrameActions: Packaging (Windows (64-bit)): BUILD FAILED
+[2015.12.24-22.43.51:358][163]PackagingResults:Error: Error Unknown Error
+[2015.12.24-22.46.50:340][473]MainFrameActions: Packaging (Windows (64-bit)): Running AutomationTool...
+[2015.12.24-22.46.50:512][483]MainFrameActions: Packaging (Windows (64-bit)): Program.Main: CWD=D:\Program Files (x86)\Epic Games\4.10\Engine\Binaries\DotNET
+[2015.12.24-22.46.50:530][484]MainFrameActions: Packaging (Windows (64-bit)): Automation.ParseCommandLine: Parsing command line: BuildCookRun -rocket -nocompile -nocompileeditor -installed -nop4 -project=D:/rollingderby/RollingDerby/RollingDerby/RollingDerby.uproject -cook -stage -archive -archivedirectory=C:/Users/tobia/Desktop -package -clientconfig=Development -ue4exe=UE4Editor-Cmd.exe -pak -prereqs -nodebuginfo -targetplatform=Win64 -build -CrashReporter -utf8output
+[2015.12.24-22.46.50:530][484]MainFrameActions: Packaging (Windows (64-bit)): Automation.Process: IsBuildMachine=False
+[2015.12.24-22.46.50:530][484]MainFrameActions: Packaging (Windows (64-bit)): Automation.Process: ShouldKillProcesses=True
+[2015.12.24-22.46.50:530][484]MainFrameActions: Packaging (Windows (64-bit)): Automation.Process: Setting up command environment.
+[2015.12.24-22.46.50:547][485]MainFrameActions: Packaging (Windows (64-bit)): CommandUtils.SetEnvVar: SetEnvVar uebp_EngineSavedFolder=D:/Program Files (x86)/Epic Games/4.10/Engine/Programs/AutomationTool/Saved
+[2015.12.24-22.46.50:547][485]MainFrameActions: Packaging (Windows (64-bit)): CommandUtils.DeleteDirectoryContents: DeleteDirectoryContents(C:/Users/tobia/AppData/Roaming/Unreal Engine/AutomationTool/Logs/D+Program+Files+(x86)+Epic+Games+4.10)
+[2015.12.24-22.46.50:563][486]MainFrameActions: Packaging (Windows (64-bit)): WindowsHostPlatform.SetFrameworkVars: Setting .Net Framework environment variables.
+[2015.12.24-22.46.50:563][486]MainFrameActions: Packaging (Windows (64-bit)): WindowsHostPlatform.SetFrameworkVars: Supports64bitExecutables=True
+[2015.12.24-22.46.50:563][486]MainFrameActions: Packaging (Windows (64-bit)): WindowsPlatform.get_Compiler: WARNING: Visual C++ 2015 toolchain does not appear to be correctly installed. Please verify that "Common Tools for Visual C++ 2015" was selected when installing Visual Studio 2015.
+[2015.12.24-22.46.50:563][486]MainFrameActions: Packaging (Windows (64-bit)): WindowsHostPlatform.SetFrameworkVars: WindowsPlatform.CompilerVisualStudio2015
+[2015.12.24-22.46.50:563][486]MainFrameActions: Packaging (Windows (64-bit)): CommandEnvironment.SetupBuildEnvironment: WARNING: SetFrameworkVars failed. Assuming no compilation capability.
+[2015.12.24-22.46.50:563][486]MainFrameActions: Packaging (Windows (64-bit)): ProjectUtils.CleanupFolders: Cleaning up project rules folder
+[2015.12.24-22.46.50:563][486]MainFrameActions: Packaging (Windows (64-bit)): Automation.Process: Compiling scripts.
+[2015.12.24-22.46.50:680][493]MainFrameActions: Packaging (Windows (64-bit)): ScriptCompiler.LoadPreCompiledScriptAssemblies: Loading precompiled script DLLs
+[2015.12.24-22.46.50:680][493]MainFrameActions: Packaging (Windows (64-bit)): ScriptCompiler.LoadPreCompiledScriptAssemblies: Found 9 script DLL(s).
+[2015.12.24-22.46.50:731][496]MainFrameActions: Packaging (Windows (64-bit)): BuildCookRun.SetupParams: Setting up ProjectParams for D:\rollingderby\RollingDerby\RollingDerby\RollingDerby.uproject
+[2015.12.24-22.46.51:031][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: Project Params **************
+[2015.12.24-22.46.51:031][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: AdditionalServerMapParams=
+[2015.12.24-22.46.51:031][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: Archive=True
+[2015.12.24-22.46.51:031][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: ArchiveMetaData=False
+[2015.12.24-22.46.51:031][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: CreateAppBundle=True
+[2015.12.24-22.46.51:031][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: BaseArchiveDirectory=C:\Users\tobia\Desktop
+[2015.12.24-22.46.51:031][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: BaseStageDirectory=D:\rollingderby\RollingDerby\RollingDerby\Saved\StagedBuilds
+[2015.12.24-22.46.51:031][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: Build=True
+[2015.12.24-22.46.51:031][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: Cook=True
+[2015.12.24-22.46.51:031][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: Clean=
+[2015.12.24-22.46.51:031][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: Client=False
+[2015.12.24-22.46.51:031][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: ClientConfigsToBuild=Development
+[2015.12.24-22.46.51:031][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: ClientCookedTargets=RollingDerby
+[2015.12.24-22.46.51:031][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: ClientTargetPlatform=Win64
+[2015.12.24-22.46.51:031][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: Compressed=False
+[2015.12.24-22.46.51:031][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: UseDebugParamForEditorExe=False
+[2015.12.24-22.46.51:031][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: CookFlavor=
+[2015.12.24-22.46.51:031][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: CookOnTheFly=False
+[2015.12.24-22.46.51:031][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: CookOnTheFlyStreaming=False
+[2015.12.24-22.46.51:031][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: UnversionedCookedContent=False
+[2015.12.24-22.46.51:031][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: SkipCookingEditorContent=False
+[2015.12.24-22.46.51:031][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: NumCookersToSpawn=0
+[2015.12.24-22.46.51:031][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: GeneratePatch=False
+[2015.12.24-22.46.51:031][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: CreateReleaseVersion=
+[2015.12.24-22.46.51:031][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: BasedOnReleaseVersion=
+[2015.12.24-22.46.51:031][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: DLCName=
+[2015.12.24-22.46.51:031][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: DLCIncludeEngineContent=False
+[2015.12.24-22.46.51:031][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: AdditionalCookerOptions=
+[2015.12.24-22.46.51:031][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: DedicatedServer=False
+[2015.12.24-22.46.51:031][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: DirectoriesToCook=
+[2015.12.24-22.46.51:031][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: CulturesToCook=
+[2015.12.24-22.46.51:031][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: EditorTargets=
+[2015.12.24-22.46.51:031][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: Foreign=False
+[2015.12.24-22.46.51:031][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: IsCodeBasedProject=True
+[2015.12.24-22.46.51:031][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: IsProgramTarget=False
+[2015.12.24-22.46.51:031][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: IterativeCooking=False
+[2015.12.24-22.46.51:031][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: CookAll=False
+[2015.12.24-22.46.51:031][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: CookMapsOnly=False
+[2015.12.24-22.46.51:031][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: Deploy=False
+[2015.12.24-22.46.51:031][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: IterativeDeploy=False
+[2015.12.24-22.46.51:031][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: FastCook=False
+[2015.12.24-22.46.51:032][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: LogWindow=False
+[2015.12.24-22.46.51:032][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: Manifests=False
+[2015.12.24-22.46.51:032][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: MapToRun=
+[2015.12.24-22.46.51:032][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: NoClient=False
+[2015.12.24-22.46.51:032][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: NumClients=0
+[2015.12.24-22.46.51:032][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: NoDebugInfo=True
+[2015.12.24-22.46.51:032][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: NoCleanStage=False
+[2015.12.24-22.46.51:032][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: NoXGE=False
+[2015.12.24-22.46.51:032][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: MapsToCook=
+[2015.12.24-22.46.51:032][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: Pak=True
+[2015.12.24-22.46.51:032][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: Package=True
+[2015.12.24-22.46.51:032][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: NullRHI=False
+[2015.12.24-22.46.51:032][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: FakeClient=False
+[2015.12.24-22.46.51:032][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: EditorTest=False
+[2015.12.24-22.46.51:032][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: RunAutomationTests=False
+[2015.12.24-22.46.51:032][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: RunAutomationTest=
+[2015.12.24-22.46.51:032][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: RunTimeoutSeconds=0
+[2015.12.24-22.46.51:032][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: CrashIndex=0
+[2015.12.24-22.46.51:032][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: ProgramTargets=
+[2015.12.24-22.46.51:032][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: ProjectBinariesFolder=D:\rollingderby\RollingDerby\RollingDerby\Binaries\Win64
+[2015.12.24-22.46.51:032][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: ProjectBinariesPath=D:\rollingderby\RollingDerby\RollingDerby\Binaries\Win64
+[2015.12.24-22.46.51:032][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: ProjectGameExeFilename=D:\rollingderby\RollingDerby\RollingDerby\Binaries\Win64\RollingDerby.exe
+[2015.12.24-22.46.51:032][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: ProjectGameExePath=D:\rollingderby\RollingDerby\RollingDerby\Binaries\Win64\RollingDerby.exe
+[2015.12.24-22.46.51:032][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: Distribution=False
+[2015.12.24-22.46.51:032][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: Prebuilt=False
+[2015.12.24-22.46.51:032][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: Prereqs=True
+[2015.12.24-22.46.51:032][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: NoBootstrapExe=False
+[2015.12.24-22.46.51:032][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: RawProjectPath=D:\rollingderby\RollingDerby\RollingDerby\RollingDerby.uproject
+[2015.12.24-22.46.51:032][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: Rocket=True
+[2015.12.24-22.46.51:032][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: Run=False
+[2015.12.24-22.46.51:032][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: ServerConfigsToBuild=Development
+[2015.12.24-22.46.51:032][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: ServerCookedTargets=
+[2015.12.24-22.46.51:032][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: ServerTargetPlatform=Win64
+[2015.12.24-22.46.51:032][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: ShortProjectName=RollingDerby
+[2015.12.24-22.46.51:032][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: SignedPak=False
+[2015.12.24-22.46.51:032][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: SignPak=
+[2015.12.24-22.46.51:032][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: SkipCook=False
+[2015.12.24-22.46.51:032][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: SkipCookOnTheFly=False
+[2015.12.24-22.46.51:032][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: SkipPak=False
+[2015.12.24-22.46.51:032][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: SkipStage=False
+[2015.12.24-22.46.51:032][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: Stage=True
+[2015.12.24-22.46.51:032][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: bUsesSteam=False
+[2015.12.24-22.46.51:032][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: bUsesCEF3=False
+[2015.12.24-22.46.51:032][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: bUsesSlate=True
+[2015.12.24-22.46.51:032][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: bDebugBuildsActuallyUseDebugCRT=False
+[2015.12.24-22.46.51:032][514]MainFrameActions: Packaging (Windows (64-bit)): ProjectParams.ValidateAndLog: Project Params **************
+[2015.12.24-22.46.51:048][515]MainFrameActions: Packaging (Windows (64-bit)): Project.Build: ********** BUILD COMMAND STARTED **********
+[2015.12.24-22.46.51:062][516]MainFrameActions: Packaging (Windows (64-bit)): BuildCommand.Execute: ERROR: BUILD FAILED
+[2015.12.24-22.46.51:062][516]MainFrameActions: Packaging (Windows (64-bit)): Program.Main: ERROR: AutomationTool terminated with exception:
+[2015.12.24-22.46.51:080][517]MainFrameActions: Packaging (Windows (64-bit)): Program.Main: ERROR: Exception in AutomationUtils.Automation: You are attempting to compile on a machine that does not have a supported compiler!
+[2015.12.24-22.46.51:080][517]MainFrameActions: Packaging (Windows (64-bit)): Stacktrace:    vid AutomationTool.UE4Build.Build(BuildAgenda Agenda, Nullable`1 InDeleteBuildProducts, Boolean InUpdateVersionFiles, Boolean InForceNoXGE, Boolean InUseParallelExecutor, Boolean InForceNonUnity, Boolean InForceUnity, Boolean InShowProgress, Dictionary`2 PlatformEnvVars)
+[2015.12.24-22.46.51:080][517]MainFrameActions: Packaging (Windows (64-bit)):    vid Project.Build(BuildCommand Command, ProjectParams Params, Int32 WorkingCL)
+[2015.12.24-22.46.51:080][517]MainFrameActions: Packaging (Windows (64-bit)):    vid BuildCookRun.DoBuildCookRun(ProjectParams Params)
+[2015.12.24-22.46.51:080][517]MainFrameActions: Packaging (Windows (64-bit)):    vid BuildCommand.Execute()
+[2015.12.24-22.46.51:080][517]MainFrameActions: Packaging (Windows (64-bit)):    vid AutomationTool.Automation.Execute(List`1 CommandsToExecute, CaselessDictionary`1 Commands)
+[2015.12.24-22.46.51:080][517]MainFrameActions: Packaging (Windows (64-bit)):    vid AutomationTool.Automation.Process(String[] CommandLine)
+[2015.12.24-22.46.51:080][517]MainFrameActions: Packaging (Windows (64-bit)):    vid AutomationTool.Program.MainProc(Object Param)
+[2015.12.24-22.46.51:080][517]MainFrameActions: Packaging (Windows (64-bit)):    vid AutomationTool.InternalUtils.RunSingleInstance(Action`1 Main, Object Param)
+[2015.12.24-22.46.51:080][517]MainFrameActions: Packaging (Windows (64-bit)):    vid AutomationTool.Program.Main()
+[2015.12.24-22.46.51:080][517]MainFrameActions: Packaging (Windows (64-bit)): ProcessManager.KillAll: Trying to kill 0 spawned processes.
+[2015.12.24-22.46.51:080][517]MainFrameActions: Packaging (Windows (64-bit)): Program.Main: AutomationTool exiting with ExitCode=Error_Unknown
+[2015.12.24-22.46.51:096][518]MainFrameActions: Packaging (Windows (64-bit)): Domain_ProcessExit
+[2015.12.24-22.46.51:096][518]MainFrameActions: Packaging (Windows (64-bit)): copying UAT log files...
+[2015.12.24-22.46.51:096][518]MainFrameActions: Packaging (Windows (64-bit)): RunUAT.bat ERROR: AutomationTool was unable to run successfully.
+[2015.12.24-22.46.51:096][518]MainFrameActions: Packaging (Windows (64-bit)): BUILD FAILED
+[2015.12.24-22.46.51:112][519]PackagingResults:Error: Error Unknown Error
+[2015.12.24-22.47.34:601][ 33]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001C56410AB60
+[2015.12.24-22.47.34:603][ 33]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001C554F7DF80
+[2015.12.24-22.47.34:752][ 33]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.12.24-22.47.34:989][ 34]Cmd: QUIT_EDITOR
+[2015.12.24-22.47.36:008][ 34]LogExit: Preparing to exit.
+[2015.12.24-22.47.36:747][ 34]LogExit: Editor shut down
+[2015.12.24-22.47.36:747][ 34]LogExit: Transaction tracking system shut down
+[2015.12.24-22.47.36:772][ 34]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001C532069260
+[2015.12.24-22.47.36:772][ 34]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001C5326DDDA0
+[2015.12.24-22.47.36:772][ 34]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001C53E76BCE0
+[2015.12.24-22.47.36:772][ 34]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001C531D9AE80
+[2015.12.24-22.47.36:772][ 34]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001C5326DF4C0
+[2015.12.24-22.47.36:790][ 34]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001C563290680
+[2015.12.24-22.47.36:791][ 34]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001C598E38CC0
+[2015.12.24-22.47.36:793][ 34]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001C58C59B380
+[2015.12.24-22.47.37:685][ 34]LogExit: Object subsystem successfully closed.
+[2015.12.24-22.47.37:784][ 34]LogD3D11RHI: Shutdown
+[2015.12.24-22.47.37:784][ 34]LogD3D11RHI: CleanupD3DDevice
+[2015.12.24-22.47.37:919][ 34]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.12.24-22.47.38:452][ 34]LogModuleManager: Shutting down and abandoning module BlueprintGraph (203)
+[2015.12.24-22.47.38:452][ 34]LogModuleManager: Shutting down and abandoning module CookingStats (202)
+[2015.12.24-22.47.38:452][ 34]LogModuleManager: Shutting down and abandoning module CrashTracker (201)
+[2015.12.24-22.47.38:452][ 34]LogModuleManager: Shutting down and abandoning module SceneOutliner (200)
+[2015.12.24-22.47.38:452][ 34]LogModuleManager: Shutting down and abandoning module SuperSearch (199)
+[2015.12.24-22.47.38:452][ 34]LogModuleManager: Shutting down and abandoning module WidgetCarousel (198)
+[2015.12.24-22.47.38:464][ 34]LogModuleManager: Shutting down and abandoning module AddContentDialog (197)
+[2015.12.24-22.47.38:474][ 34]LogModuleManager: Shutting down and abandoning module EditorWidgets (196)
+[2015.12.24-22.47.38:474][ 34]LogModuleManager: Shutting down and abandoning module CollectionManager (195)
+[2015.12.24-22.47.38:488][ 34]LogModuleManager: Shutting down and abandoning module StatsViewer (194)
+[2015.12.24-22.47.38:494][ 34]LogModuleManager: Shutting down and abandoning module FoliageEdit (193)
+[2015.12.24-22.47.38:500][ 34]LogModuleManager: Shutting down and abandoning module LandscapeEditor (192)
+[2015.12.24-22.47.38:518][ 34]LogModuleManager: Shutting down and abandoning module ActorPickerMode (191)
+[2015.12.24-22.47.38:518][ 34]LogModuleManager: Shutting down and abandoning module GeometryMode (190)
+[2015.12.24-22.47.38:518][ 34]LogModuleManager: Shutting down and abandoning module TextureAlignMode (189)
+[2015.12.24-22.47.38:518][ 34]LogModuleManager: Shutting down and abandoning module BspMode (188)
+[2015.12.24-22.47.38:518][ 34]LogModuleManager: Shutting down and abandoning module PlacementMode (187)
+[2015.12.24-22.47.38:518][ 34]LogModuleManager: Shutting down and abandoning module AutomationWorker (186)
+[2015.12.24-22.47.38:518][ 34]LogModuleManager: Shutting down and abandoning module CharacterAI (185)
+[2015.12.24-22.47.38:518][ 34]LogModuleManager: Shutting down and abandoning module SmartSnapping (184)
+[2015.12.24-22.47.38:518][ 34]LogModuleManager: Shutting down and abandoning module ViewportSnapping (183)
+[2015.12.24-22.47.38:518][ 34]LogModuleManager: Shutting down and abandoning module LogVisualizer (182)
+[2015.12.24-22.47.38:531][ 34]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (181)
+[2015.12.24-22.47.38:531][ 34]LogModuleManager: Shutting down and abandoning module IntroTutorials (180)
+[2015.12.24-22.47.38:550][ 34]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (179)
+[2015.12.24-22.47.38:550][ 34]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (178)
+[2015.12.24-22.47.38:557][ 34]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (177)
+[2015.12.24-22.47.38:557][ 34]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (176)
+[2015.12.24-22.47.38:825][ 34]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (175)
+[2015.12.24-22.47.38:825][ 34]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (174)
+[2015.12.24-22.47.38:825][ 34]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (173)
+[2015.12.24-22.47.38:825][ 34]LogModuleManager: Shutting down and abandoning module MergeActors (172)
+[2015.12.24-22.47.38:863][ 34]LogModuleManager: Shutting down and abandoning module SizeMap (171)
+[2015.12.24-22.47.38:863][ 34]LogModuleManager: Shutting down and abandoning module TreeMap (170)
+[2015.12.24-22.47.38:872][ 34]LogModuleManager: Shutting down and abandoning module ReferenceViewer (169)
+[2015.12.24-22.47.38:883][ 34]LogModuleManager: Shutting down and abandoning module LocalizationService (168)
+[2015.12.24-22.47.38:893][ 34]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (167)
+[2015.12.24-22.47.38:901][ 34]LogModuleManager: Shutting down and abandoning module HardwareTargeting (166)
+[2015.12.24-22.47.38:908][ 34]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (165)
+[2015.12.24-22.47.38:925][ 34]LogModuleManager: Shutting down and abandoning module UndoHistory (164)
+[2015.12.24-22.47.38:930][ 34]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (163)
+[2015.12.24-22.47.38:934][ 34]LogModuleManager: Shutting down and abandoning module UserFeedback (162)
+[2015.12.24-22.47.38:934][ 34]LogModuleManager: Shutting down and abandoning module XmlParser (161)
+[2015.12.24-22.47.38:934][ 34]LogModuleManager: Shutting down and abandoning module Blutility (160)
+[2015.12.24-22.47.38:934][ 34]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (159)
+[2015.12.24-22.47.38:934][ 34]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (158)
+[2015.12.24-22.47.38:934][ 34]LogModuleManager: Shutting down and abandoning module InputBindingEditor (157)
+[2015.12.24-22.47.38:954][ 34]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (156)
+[2015.12.24-22.47.38:954][ 34]LogModuleManager: Shutting down and abandoning module SettingsEditor (155)
+[2015.12.24-22.47.38:975][ 34]LogModuleManager: Shutting down and abandoning module ProjectLauncher (154)
+[2015.12.24-22.47.38:989][ 34]LogModuleManager: Shutting down and abandoning module SessionFrontend (153)
+[2015.12.24-22.47.38:999][ 34]LogModuleManager: Shutting down and abandoning module ProfilerClient (152)
+[2015.12.24-22.47.39:010][ 34]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (151)
+[2015.12.24-22.47.39:010][ 34]LogModuleManager: Shutting down and abandoning module DeviceManager (150)
+[2015.12.24-22.47.39:020][ 34]LogModuleManager: Shutting down and abandoning module AutomationController (149)
+[2015.12.24-22.47.39:032][ 34]LogModuleManager: Shutting down and abandoning module AutomationWindow (148)
+[2015.12.24-22.47.39:038][ 34]LogModuleManager: Shutting down and abandoning module Layers (147)
+[2015.12.24-22.47.39:053][ 34]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (146)
+[2015.12.24-22.47.39:053][ 34]LogModuleManager: Shutting down and abandoning module DetailCustomizations (145)
+[2015.12.24-22.47.39:065][ 34]LogModuleManager: Shutting down and abandoning module PackagesDialog (144)
+[2015.12.24-22.47.39:065][ 34]LogModuleManager: Shutting down and abandoning module Persona (143)
+[2015.12.24-22.47.39:099][ 34]LogModuleManager: Shutting down and abandoning module Kismet (142)
+[2015.12.24-22.47.39:099][ 34]LogModuleManager: Shutting down and abandoning module GraphEditor (141)
+[2015.12.24-22.47.39:099][ 34]LogModuleManager: Shutting down and abandoning module ClassViewer (140)
+[2015.12.24-22.47.39:100][ 34]LogModuleManager: Shutting down and abandoning module Toolbox (139)
+[2015.12.24-22.47.39:100][ 34]LogModuleManager: Shutting down and abandoning module ModuleUI (138)
+[2015.12.24-22.47.39:111][ 34]LogModuleManager: Shutting down and abandoning module MovieSceneTools (137)
+[2015.12.24-22.47.39:120][ 34]LogModuleManager: Shutting down and abandoning module OutputLog (136)
+[2015.12.24-22.47.39:120][ 34]LogModuleManager: Shutting down and abandoning module GammaUI (135)
+[2015.12.24-22.47.39:148][ 34]LogModuleManager: Shutting down and abandoning module Documentation (134)
+[2015.12.24-22.47.39:148][ 34]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (133)
+[2015.12.24-22.47.39:152][ 34]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (132)
+[2015.12.24-22.47.39:152][ 34]LogModuleManager: Shutting down and abandoning module AnalyticsET (131)
+[2015.12.24-22.47.39:152][ 34]LogModuleManager: Shutting down and abandoning module Analytics (130)
+[2015.12.24-22.47.39:152][ 34]LogModuleManager: Shutting down and abandoning module AITestSuite (129)
+[2015.12.24-22.47.39:171][ 34]LogModuleManager: Shutting down and abandoning module GameplayDebugger (128)
+[2015.12.24-22.47.39:178][ 34]LogModuleManager: Shutting down and abandoning module AIModule (127)
+[2015.12.24-22.47.39:178][ 34]LogModuleManager: Shutting down and abandoning module ProfilerService (126)
+[2015.12.24-22.47.39:214][ 34]LogModuleManager: Shutting down and abandoning module TaskGraph (125)
+[2015.12.24-22.47.39:226][ 34]LogModuleManager: Shutting down and abandoning module SlateRemote (124)
+[2015.12.24-22.47.39:227][ 34]LogModuleManager: Shutting down and abandoning module SteamVRController (123)
+[2015.12.24-22.47.39:227][ 34]LogModuleManager: Shutting down and abandoning module SteamVR (122)
+[2015.12.24-22.47.39:227][ 34]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (121)
+[2015.12.24-22.47.39:227][ 34]LogModuleManager: Shutting down and abandoning module OculusLibrary (120)
+[2015.12.24-22.47.39:227][ 34]LogModuleManager: Shutting down and abandoning module OculusInput (119)
+[2015.12.24-22.47.39:227][ 34]LogModuleManager: Shutting down and abandoning module LeapMotionController (118)
+[2015.12.24-22.47.39:271][ 34]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (117)
+[2015.12.24-22.47.39:271][ 34]LogModuleManager: Shutting down and abandoning module CableComponent (116)
+[2015.12.24-22.47.39:276][ 34]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (115)
+[2015.12.24-22.47.39:277][ 34]LogModuleManager: Shutting down and abandoning module MessagingDebugger (114)
+[2015.12.24-22.47.39:310][ 34]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (113)
+[2015.12.24-22.47.39:322][ 34]LogModuleManager: Shutting down and abandoning module HTML5Networking (112)
+[2015.12.24-22.47.39:323][ 34]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (111)
+[2015.12.24-22.47.39:323][ 34]LogModuleManager: Shutting down and abandoning module PluginBrowser (110)
+[2015.12.24-22.47.39:329][ 34]LogModuleManager: Shutting down and abandoning module EpicSurvey (109)
+[2015.12.24-22.47.39:333][ 34]LogModuleManager: Shutting down and abandoning module DesktopPlatform (108)
+[2015.12.24-22.47.39:333][ 34]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (107)
+[2015.12.24-22.47.39:333][ 34]LogModuleManager: Shutting down and abandoning module UObjectPlugin (106)
+[2015.12.24-22.47.39:333][ 34]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (105)
+[2015.12.24-22.47.39:339][ 34]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (104)
+[2015.12.24-22.47.39:354][ 34]LogModuleManager: Shutting down and abandoning module SourceControl (103)
+[2015.12.24-22.47.39:366][ 34]LogModuleManager: Shutting down and abandoning module GitSourceControl (102)
+[2015.12.24-22.47.39:378][ 34]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (101)
+[2015.12.24-22.47.39:378][ 34]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (100)
+[2015.12.24-22.47.39:389][ 34]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (99)
+[2015.12.24-22.47.39:389][ 34]LogModuleManager: Shutting down and abandoning module MeshPaint (98)
+[2015.12.24-22.47.39:389][ 34]LogModuleManager: Shutting down and abandoning module SlateReflector (97)
+[2015.12.24-22.47.39:401][ 34]LogModuleManager: Shutting down and abandoning module HotReload (96)
+[2015.12.24-22.47.39:410][ 34]LogModuleManager: Shutting down and abandoning module MainFrame (95)
+[2015.12.24-22.47.39:410][ 34]LogModuleManager: Shutting down and abandoning module LevelEditor (94)
+[2015.12.24-22.47.39:418][ 34]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.12.24-22.47.39:419][ 34]LogModuleManager: Shutting down and abandoning module AssetRegistry (92)
+[2015.12.24-22.47.39:528][ 34]LogModuleManager: Shutting down and abandoning module ContentBrowser (91)
+[2015.12.24-22.47.39:529][ 34]LogModuleManager: Shutting down and abandoning module Paper2DEditor (90)
+[2015.12.24-22.47.39:551][ 34]LogModuleManager: Shutting down and abandoning module UdpMessaging (89)
+[2015.12.24-22.47.39:652][ 34]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (88)
+[2015.12.24-22.47.39:652][ 34]LogModuleManager: Shutting down and abandoning module Paper2D (87)
+[2015.12.24-22.47.39:657][ 34]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (86)
+[2015.12.24-22.47.39:659][ 34]LogModuleManager: Shutting down and abandoning module Media (85)
+[2015.12.24-22.47.39:659][ 34]LogModuleManager: Shutting down and abandoning module WmfMedia (84)
+[2015.12.24-22.47.39:668][ 34]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
+[2015.12.24-22.47.39:668][ 34]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
+[2015.12.24-22.47.39:668][ 34]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
+[2015.12.24-22.47.39:668][ 34]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
+[2015.12.24-22.47.39:690][ 34]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
+[2015.12.24-22.47.39:690][ 34]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
+[2015.12.24-22.47.39:695][ 34]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2015.12.24-22.47.39:695][ 34]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2015.12.24-22.47.39:695][ 34]LogModuleManager: Shutting down and abandoning module Sequencer (75)
+[2015.12.24-22.47.39:725][ 34]LogModuleManager: Shutting down and abandoning module AssetTools (74)
+[2015.12.24-22.47.39:743][ 34]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
+[2015.12.24-22.47.39:760][ 34]LogModuleManager: Shutting down and abandoning module UMG (72)
+[2015.12.24-22.47.39:760][ 34]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2015.12.24-22.47.39:760][ 34]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2015.12.24-22.47.39:761][ 34]LogModuleManager: Shutting down and abandoning module SessionServices (69)
+[2015.12.24-22.47.39:761][ 34]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (68)
+[2015.12.24-22.47.39:761][ 34]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (67)
+[2015.12.24-22.47.39:761][ 34]LogModuleManager: Shutting down and abandoning module XAudio2 (66)
+[2015.12.24-22.47.39:761][ 34]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2015.12.24-22.47.39:761][ 34]LogModuleManager: Shutting down and abandoning module Core (64)
+[2015.12.24-22.47.39:761][ 34]LogModuleManager: Shutting down and abandoning module KismetCompiler (63)
+[2015.12.24-22.47.39:761][ 34]LogModuleManager: Shutting down and abandoning module PhysXFormats (62)
+[2015.12.24-22.47.39:762][ 34]LogModuleManager: Shutting down and abandoning module MeshUtilities (61)
+[2015.12.24-22.47.39:774][ 34]LogModuleManager: Shutting down and abandoning module DerivedDataCache (60)
+[2015.12.24-22.47.39:808][ 34]LogDerivedDataCache: Shutdown
+[2015.12.24-22.47.39:808][ 34]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (59)
+[2015.12.24-22.47.39:814][ 34]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (58)
+[2015.12.24-22.47.39:814][ 34]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (57)
+[2015.12.24-22.47.39:823][ 34]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (56)
+[2015.12.24-22.47.39:823][ 34]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (55)
+[2015.12.24-22.47.39:823][ 34]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (54)
+[2015.12.24-22.47.39:823][ 34]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (53)
+[2015.12.24-22.47.39:823][ 34]LogModuleManager: Shutting down and abandoning module ImageWrapper (52)
+[2015.12.24-22.47.39:823][ 34]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (51)
+[2015.12.24-22.47.39:823][ 34]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (50)
+[2015.12.24-22.47.39:823][ 34]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (49)
+[2015.12.24-22.47.39:833][ 34]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (48)
+[2015.12.24-22.47.39:833][ 34]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (47)
+[2015.12.24-22.47.39:833][ 34]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (46)
+[2015.12.24-22.47.39:833][ 34]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (45)
+[2015.12.24-22.47.39:833][ 34]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (44)
+[2015.12.24-22.47.39:833][ 34]LogModuleManager: Shutting down and abandoning module Messaging (43)
+[2015.12.24-22.47.39:833][ 34]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (42)
+[2015.12.24-22.47.39:833][ 34]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (41)
+[2015.12.24-22.47.39:833][ 34]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (40)
+[2015.12.24-22.47.39:833][ 34]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (39)
+[2015.12.24-22.47.39:833][ 34]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (38)
+[2015.12.24-22.47.39:833][ 34]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (37)
+[2015.12.24-22.47.39:833][ 34]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (36)
+[2015.12.24-22.47.39:833][ 34]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (35)
+[2015.12.24-22.47.39:833][ 34]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (34)
+[2015.12.24-22.47.39:833][ 34]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (33)
+[2015.12.24-22.47.39:833][ 34]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (32)
+[2015.12.24-22.47.39:833][ 34]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (31)
+[2015.12.24-22.47.39:833][ 34]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (30)
+[2015.12.24-22.47.39:833][ 34]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (29)
+[2015.12.24-22.47.39:833][ 34]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (28)
+[2015.12.24-22.47.39:833][ 34]LogModuleManager: Shutting down and abandoning module TargetPlatform (27)
+[2015.12.24-22.47.39:833][ 34]LogModuleManager: Shutting down and abandoning module InputCore (26)
+[2015.12.24-22.47.39:833][ 34]LogModuleManager: Shutting down and abandoning module Settings (25)
+[2015.12.24-22.47.39:833][ 34]LogModuleManager: Shutting down and abandoning module Voice (23)
+[2015.12.24-22.47.39:843][ 34]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2015.12.24-22.47.39:843][ 34]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2015.12.24-22.47.39:844][ 34]LogOnline:Display: Unloading online subsystem: STEAM
+[2015.12.24-22.47.39:852][ 34]LogOnline:Display: Unloading online subsystem: Null
+[2015.12.24-22.47.39:852][ 34]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2015.12.24-22.47.41:854][ 34]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2015.12.24-22.47.41:895][ 34]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2015.12.24-22.47.41:903][ 34]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.12.24-22.47.41:903][ 34]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.12.24-22.47.41:903][ 34]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.12.24-22.47.41:903][ 34]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.12.24-22.47.41:903][ 34]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.12.24-22.47.41:919][ 34]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.12.24-22.47.41:919][ 34]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.12.24-22.47.41:919][ 34]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.12.24-22.47.41:919][ 34]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.12.24-22.47.41:919][ 34]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.12.24-22.47.41:919][ 34]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.12.24-22.47.41:919][ 34]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.12.24-22.47.41:919][ 34]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.12.24-22.47.41:919][ 34]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.12.24-22.47.41:919][ 34]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.12.24-22.47.41:933][ 34]LogExit: Exiting.
+[2015.12.24-22.47.41:948][ 34]Log file closed, 12/24/15 23:47:41
