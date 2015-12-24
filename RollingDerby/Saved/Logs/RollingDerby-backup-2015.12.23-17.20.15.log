@@ -1,0 +1,578 @@
+﻿[2015.12.23-15.51.58:881][  0]Log file open, 12/23/15 16:51:58
+[2015.12.23-15.51.58:881][  0]LogInit:Display: Running engine for game: RollingDerby
+[2015.12.23-15.51.58:881][  0]LogPlatformFile: Not using cached read wrapper
+[2015.12.23-15.51.58:881][  0]LogInit:Display: RandInit(-1292267539) SRandInit(-1292267538).
+[2015.12.23-15.51.58:881][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.12.23-15.51.58:881][  0]LogStats: Stats thread started at 0.072113
+[2015.12.23-15.51.58:881][  0]LogInit: Version: 4.10.1-2791327+++depot+UE4-Releases+4.10
+[2015.12.23-15.51.58:881][  0]LogInit: API Version: 2758231
+[2015.12.23-15.51.58:881][  0]LogInit: Compiled (64-bit): Dec  4 2015 19:44:40
+[2015.12.23-15.51.58:881][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2015.12.23-15.51.58:881][  0]LogInit: Build Configuration: Development
+[2015.12.23-15.51.58:881][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2015.12.23-15.51.58:881][  0]LogInit: Command line:  
+[2015.12.23-15.51.58:881][  0]LogInit: Base directory: D:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2015.12.23-15.51.58:881][  0]LogInit: Rocket: 1
+[2015.12.23-15.51.58:888][  0]LogInit: Using libcurl 7.41.0
+[2015.12.23-15.51.58:888][  0]LogInit:  - built for x86_64-pc-win32
+[2015.12.23-15.51.58:888][  0]LogInit:  - supports SSL with WinSSL
+[2015.12.23-15.51.58:888][  0]LogInit:  - other features:
+[2015.12.23-15.51.58:888][  0]LogInit:      CURL_VERSION_SSL
+[2015.12.23-15.51.58:888][  0]LogInit:      CURL_VERSION_IPV6
+[2015.12.23-15.51.58:888][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.12.23-15.51.58:888][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.12.23-15.51.58:888][  0]LogInit:      CURL_VERSION_IDN
+[2015.12.23-15.51.58:888][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.12.23-15.51.58:888][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.12.23-15.51.58:888][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.12.23-15.51.58:888][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.12.23-15.51.58:888][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.12.23-15.51.58:894][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.12.23-15.51.58:899][  0]LogInit: Object subsystem initialized
+[2015.12.23-15.51.58:900][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.23-15.51.58:900][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.12.23-15.51.58:909][  0]LogInit: Computer: MSI
+[2015.12.23-15.51.58:909][  0]LogInit: User: tobia
+[2015.12.23-15.51.58:909][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.12.23-15.51.58:909][  0]LogInit: High frequency timer resolution =2.531245 MHz
+[2015.12.23-15.51.58:909][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2015.12.23-15.51.58:909][  0]LogMemory: Platform Memory Stats for Windows
+[2015.12.23-15.51.58:909][  0]LogMemory: Process Physical Memory: 55.91 MB used, 55.91 MB peak
+[2015.12.23-15.51.58:909][  0]LogMemory: Process Virtual Memory: 56.88 MB used, 56.88 MB peak
+[2015.12.23-15.51.58:909][  0]LogMemory: Physical Memory: 4499.86 MB used, 16294.66 MB total
+[2015.12.23-15.51.58:909][  0]LogMemory: Virtual Memory: 383.49 MB used, 134217728.00 MB total
+[2015.12.23-15.51.59:196][  0]LogTextLocalizationManager: No translations for ('sv-SE') exist, falling back to 'en' for localization and internationalization data.
+[2015.12.23-15.51.59:612][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970M           (Feature Level 11_0)
+[2015.12.23-15.51.59:612][  0]LogD3D11RHI: Adapter has 2991MB of dedicated video memory, 0MB of dedicated system memory, and 8147MB of shared system memory, 1 output[s]
+[2015.12.23-15.51.59:618][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 530 (Feature Level 11_0)
+[2015.12.23-15.51.59:618][  0]LogD3D11RHI: Adapter has 128MB of dedicated video memory, 0MB of dedicated system memory, and 8147MB of shared system memory, 0 output[s]
+[2015.12.23-15.51.59:620][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.12.23-15.51.59:620][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8147MB of shared system memory, 0 output[s]
+[2015.12.23-15.51.59:620][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.12.23-15.51.59:624][  0]LogD3D11RHI: !Direct3DDevice
+[2015.12.23-15.51.59:624][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.12.23-15.51.59:637][  0]LogD3D11RHI: Async texture creation enabled
+[2015.12.23-15.51.59:649][  0]LogShaderCompilers: Guid format shader working directory is -11 characters bigger than the processId version (../../../../../../rollingderby/RollingDerby/RollingDerby/Intermediate/Shaders/WorkingDirectory/10752/).
+[2015.12.23-15.51.59:650][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/tobia/AppData/Local/Temp/UnrealShaderWorkingDir/3B0B1BD3438A328FC90B52A82BFC6DB5/'.
+[2015.12.23-15.51.59:650][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.12.23-15.52.00:395][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.12.23-15.52.00:400][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.12.23-15.52.00:403][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.12.23-15.52.00:407][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.12.23-15.52.00:410][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.12.23-15.52.00:414][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.12.23-15.52.00:416][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.12.23-15.52.00:419][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.12.23-15.52.00:422][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.12.23-15.52.00:425][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.12.23-15.52.00:428][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.12.23-15.52.00:435][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2015.12.23-15.52.00:435][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.12.23-15.52.00:436][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.12.23-15.52.00:451][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.12.23-15.52.00:454][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.12.23-15.52.00:457][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.12.23-15.52.00:460][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.12.23-15.52.00:460][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.12.23-15.52.00:524][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.12.23-15.52.00:572][  0]LogDerivedDataCache: Loaded boot cache 0.05s 41MB C:/Users/tobia/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2015.12.23-15.52.00:572][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/tobia/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2015.12.23-15.52.00:572][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../rollingderby/RollingDerby/RollingDerby/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.12.23-15.52.00:572][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.12.23-15.52.00:572][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../rollingderby/RollingDerby/RollingDerby/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.12.23-15.52.00:572][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.12.23-15.52.00:635][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.12.23-15.52.00:647][  0]LogDerivedDataCache: Using Local data cache path C:/Users/tobia/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.12.23-15.52.00:808][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.23-15.52.00:810][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.12.23-15.52.00:918][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.12.23-15.52.00:918][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.12.23-15.52.01:124][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.12.23-15.52.01:818][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.12.23-15.52.01:908][  0]LogAssetRegistry: FAssetRegistry took 0.0107 seconds to start up
+[2015.12.23-15.52.02:040][  0]SourceControl: Info Source control is disabled
+[2015.12.23-15.52.02:041][  0]SourceControl: Info Source control is disabled
+[2015.12.23-15.52.02:049][  0]SourceControl: Info Source control is disabled
+[2015.12.23-15.52.02:056][  0]SourceControl: Info Source control is disabled
+[2015.12.23-15.52.02:217][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2015.12.23-15.52.02:217][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2015.12.23-15.52.02:273][  0]LogEngine: Initializing Engine...
+[2015.12.23-15.52.02:275][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2015.12.23-15.52.02:275][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.12.23-15.52.02:386][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.12.23-15.52.02:396][  0]LogInit: XAudio2 using 'HeadPhone/Digital Output (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.12.23-15.52.02:409][  0]LogInit: FAudioDevice initialized.
+[2015.12.23-15.52.02:431][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/tobia/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2015.12.23-15.52.02:435][  0]LogInit: Texture streaming: Enabled
+[2015.12.23-15.52.02:440][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.12.23-15.52.02:440][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.1-2791327+++depot+UE4-Releases+4.10
+[2015.12.23-15.52.02:440][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 3750e6d1405e52e99c08f9974cd5569f|471a4cb9a5c14167995f8bc8b175918a|446fe6e5-1b13-4339-81c8-b1f6f83a87c4
+[2015.12.23-15.52.02:440][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.12.23-15.52.02:473][  0]LogInit: Transaction tracking system initialized
+[2015.12.23-15.52.02:494][  0]BlueprintLog: New page: Editor Load
+[2015.12.23-15.52.02:553][  0]LocalizationService: Info Localization service is disabled
+[2015.12.23-15.52.02:615][  0]LogConsoleResponse:Display: 
+[2015.12.23-15.52.02:723][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.12.23-15.52.02:763][  0]LogFileCache: Scanning file cache for directory 'D:/rollingderby/RollingDerby/RollingDerby/Content/' took 0.01s
+[2015.12.23-15.52.02:763][  0]SourceControl: Info Source control is disabled
+[2015.12.23-15.52.02:763][  0]Cmd: MAP LOAD FILE="../../../../../../rollingderby/RollingDerby/RollingDerby/Content/RollingBP/Maps/RollingBPExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.23-15.52.02:763][  0]LightingResults: New page: Lighting Build
+[2015.12.23-15.52.02:766][  0]MapCheck: New page: Map Check
+[2015.12.23-15.52.02:766][  0]LightingResults: New page: Lighting Build
+[2015.12.23-15.52.02:778][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000234CF173B00
+[2015.12.23-15.52.03:116][  0]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2015.12.23-15.52.03:123][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.23-15.52.03:124][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.23-15.52.03:158][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 34.658ms to complete.
+[2015.12.23-15.52.03:159][  0]LogFileHelpers: Loading map 'RollingBPExampleMap' took 0.396
+[2015.12.23-15.52.03:342][  0]LogCollectionManager: Loaded 0 collections in 0.001651 seconds
+[2015.12.23-15.52.03:380][  0]LogFileCache: Scanning file cache for directory 'D:/rollingderby/RollingDerby/RollingDerby/Saved/Collections/' took 0.01s
+[2015.12.23-15.52.03:380][  0]LogFileCache: Scanning file cache for directory 'D:/rollingderby/RollingDerby/RollingDerby/Content/Developers/tobia/Collections/' took 0.01s
+[2015.12.23-15.52.03:380][  0]LogFileCache: Scanning file cache for directory 'D:/rollingderby/RollingDerby/RollingDerby/Content/Collections/' took 0.01s
+[2015.12.23-15.52.03:380][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2015.12.23-15.52.03:387][  0]LogContentBrowser: Native class hierarchy populated in 0.0067 seconds. Added 1893 classes and 338 folders.
+[2015.12.23-15.52.03:391][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.12.23-15.52.03:427][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.12.23-15.52.03:430][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2015.12.23-15.52.03:449][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.12.23-15.52.03:455][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.12.23-15.52.03:477][  0]LogLoad: Full Startup: 4.98 seconds (BP compile: 0.06 seconds)
+[2015.12.23-15.52.03:497][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2015.12.23-15.52.03:532][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.12.23-15.52.03:658][  0]LogRenderer: Reallocating scene render targets to support 884x432 (Frame:2).
+[2015.12.23-15.52.03:960][  4]LogAssetRegistry: Asset discovery search completed in 2.0624 seconds
+[2015.12.23-15.52.03:960][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2015.12.23-15.52.03:960][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000016 seconds (updated 0 objects)
+[2015.12.23-15.52.06:230][ 65]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2015.12.23-15.52.06:230][ 65]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.23-15.52.06:231][ 65]PIE: New page: PIE session: RollingBPExampleMap (Dec 23, 2015, 5:52:06 PM)
+[2015.12.23-15.52.06:231][ 65]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap
+[2015.12.23-15.52.06:265][ 65]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034159s)
+[2015.12.23-15.52.06:265][ 65]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2015.12.23-15.52.06:265][ 65]LogPlayLevel: PIE: World Init took: (0.000648s)
+[2015.12.23-15.52.06:266][ 65]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap to /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap (0.035070s)
+[2015.12.23-15.52.06:315][ 65]LogInit: XAudio2 using 'HeadPhone/Digital Output (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.12.23-15.52.06:324][ 65]LogInit: FAudioDevice initialized.
+[2015.12.23-15.52.06:373][ 65]LogWorld: Game class is 'RollingGameMode_C'
+[2015.12.23-15.52.06:383][ 65]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap up for play (max tick rate 60) at 2015.12.23-16.52.06
+[2015.12.23-15.52.06:383][ 65]LogActor:Warning: GameSession /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.23-15.52.06:383][ 65]LogActor:Warning: GameNetworkManager /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.23-15.52.06:383][ 65]LogWorld: Bringing up level for play took: 0.008235
+[2015.12.23-15.52.06:384][ 65]PIE: Info Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap 0.655
+[2015.12.23-15.52.06:384][ 65]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2015.12.23-15.52.10:658][144]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2015.12.23-15.52.10:741][144]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2015.12.23-15.52.10:754][144]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000234E506C860
+[2015.12.23-15.52.12:923][170]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.23-15.52.13:500][170]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 107 classes and 0 folders.
+[2015.12.23-15.52.21:176][332]LogContentBrowser: Native class hierarchy updated for 'DestructibleMeshEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2015.12.23-15.52.21:178][332]LogDestructible:Warning: MainMesh Tris: 3968
+[2015.12.23-15.52.21:280][332]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1479) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.12.23-15.52.21:280][332]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (253) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.12.23-15.52.21:301][332]LogApexDestructibleAssetImport:Warning: Using default materials for material slot
+[2015.12.23-15.52.21:302][332]LogApexDestructibleAssetImport:Warning: Bones digested - 2  Depth of hierarchy - 2
+[2015.12.23-15.52.21:390][332]LogSkeletalMesh: Chunk 0: 2333 rigid vertices, 0 soft vertices, 1 active bones
+[2015.12.23-15.52.21:396][332]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 3968 triangles
+[2015.12.23-15.52.21:466][332]LogMaterial:Warning: Material /Game/StarterContent/Materials/M_Basic_Wall.M_Basic_Wall needed to have new flag set bUsedWithSkeletalMesh !
+[2015.12.23-15.52.21:469][332]LogMaterial: Missing cached shader map for material M_Basic_Wall, compiling. 
+[2015.12.23-15.52.21:497][332]LogMaterial: 0.000105 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.23-15.52.21:586][332]LogRenderer: Reallocating scene render targets to support 948x704 (Frame:181).
+[2015.12.23-15.52.23:699][355]LogDestructible:Warning: MainMesh Tris: 3968
+[2015.12.23-15.52.23:829][355]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1479) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.12.23-15.52.23:829][355]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (253) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.12.23-15.59.36:843][355]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1479) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.12.23-15.59.36:843][355]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (253) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.12.23-15.59.45:429][355]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1479) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.12.23-15.59.45:429][355]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (253) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.12.23-15.59.57:075][355]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1479) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.12.23-15.59.57:075][355]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (253) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.12.23-15.59.58:894][355]LogApexDestructibleAssetImport:Warning: Using default materials for material slot
+[2015.12.23-15.59.58:897][355]LogApexDestructibleAssetImport:Warning: Bones digested - 27  Depth of hierarchy - 2
+[2015.12.23-15.59.59:107][355]LogSkeletalMesh: Chunk 0: 7621 rigid vertices, 0 soft vertices, 22 active bones
+[2015.12.23-15.59.59:107][355]LogSkeletalMesh: Chunk 1: 3024 rigid vertices, 0 soft vertices, 25 active bones
+[2015.12.23-15.59.59:124][355]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 10744 triangles
+[2015.12.23-15.59.59:124][355]LogSkeletalMesh: Section 1: Material=1, Chunk=1, 2296 triangles
+[2015.12.23-15.59.59:256][357]LogHttp:Warning: Timeout processing Http request. 0000023497E99A00
+[2015.12.23-16.00.13:674][503]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Materials/M_Basic_Wall" FILE="../../../../../../rollingderby/RollingDerby/RollingDerby/Content/StarterContent/Materials/M_Basic_Wall.uasset" SILENT=true
+[2015.12.23-16.00.13:694][503]LogSavePackage: Save=13.237755ms
+[2015.12.23-16.00.13:694][503]LogSavePackage: Moving '../../../../../../rollingderby/RollingDerby/RollingDerby/Saved/M_Basic_WallA0D8E5B24E0630CA5275CA9E9529F637.tmp' to '../../../../../../rollingderby/RollingDerby/RollingDerby/Content/StarterContent/Materials/M_Basic_Wall.uasset'
+[2015.12.23-16.00.13:696][503]LogSavePackage: Total save time: 21.058809ms
+[2015.12.23-16.00.13:696][503]LogSavePackage:Display: Finished SavePackage ../../../../../../rollingderby/RollingDerby/RollingDerby/Content/StarterContent/Materials/M_Basic_Wall.uasset
+[2015.12.23-16.00.13:730][503]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Rolling/Meshes/BallMesh_DM" FILE="../../../../../../rollingderby/RollingDerby/RollingDerby/Content/Rolling/Meshes/BallMesh_DM.uasset" SILENT=true
+[2015.12.23-16.00.13:847][503]LogSavePackage: Save=115.649017ms
+[2015.12.23-16.00.13:847][503]LogSavePackage: Moving '../../../../../../rollingderby/RollingDerby/RollingDerby/Saved/BallMesh_DM95CEA5B8429CAACB1A6D8881395D35B4.tmp' to '../../../../../../rollingderby/RollingDerby/RollingDerby/Content/Rolling/Meshes/BallMesh_DM.uasset'
+[2015.12.23-16.00.13:849][503]LogSavePackage: Total save time: 117.288135ms
+[2015.12.23-16.00.13:849][503]LogSavePackage:Display: Finished SavePackage ../../../../../../rollingderby/RollingDerby/RollingDerby/Content/Rolling/Meshes/BallMesh_DM.uasset
+[2015.12.23-16.00.31:926][722]LogDestructible:Warning: MainMesh Tris: 3968
+[2015.12.23-16.00.32:041][722]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1479) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.12.23-16.00.32:041][722]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (253) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.12.23-16.07.51:781][722]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1479) 32 : ConvexHullBuilder: convex hull has more than 255 polygons!
+[2015.12.23-16.07.51:781][722]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (253) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.12.23-16.09.19:858][722]LogApexDestructibleAssetImport:Warning: Using default materials for material slot
+[2015.12.23-16.09.19:862][722]LogApexDestructibleAssetImport:Warning: Bones digested - 102  Depth of hierarchy - 2
+[2015.12.23-16.09.20:128][722]LogSkeletalMesh: Chunk 0: 10396 rigid vertices, 0 soft vertices, 67 active bones
+[2015.12.23-16.09.20:128][722]LogSkeletalMesh: Chunk 1: 9576 rigid vertices, 0 soft vertices, 100 active bones
+[2015.12.23-16.09.20:159][722]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 13387 triangles
+[2015.12.23-16.09.20:159][722]LogSkeletalMesh: Section 1: Material=1, Chunk=1, 6764 triangles
+[2015.12.23-16.09.30:413][753]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/RollingBP/Maps/RollingBPExampleMap' took 0.031
+[2015.12.23-16.09.30:443][753]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Rolling/Meshes/BallMesh_DM] ([1] browsable assets)...
+[2015.12.23-16.09.30:511][753]OBJ SavePackage:     Rendered thumbnail for [DestructibleMesh /Game/Rolling/Meshes/BallMesh_DM.BallMesh_DM]
+[2015.12.23-16.09.30:511][753]OBJ SavePackage: Finished generating thumbnails for package [/Game/Rolling/Meshes/BallMesh_DM]
+[2015.12.23-16.09.30:689][753]LogSavePackage: Save=165.339584ms
+[2015.12.23-16.09.30:689][753]LogSavePackage: Moving '../../../../../../rollingderby/RollingDerby/RollingDerby/Saved/BallMesh_DM_Auto1E1F003DD444154D0CE3B7CAA1A6C44CA.tmp' to '../../../../../../rollingderby/RollingDerby/RollingDerby/Saved/Autosaves/Game/Rolling/Meshes/BallMesh_DM_Auto1.uasset'
+[2015.12.23-16.09.30:690][753]LogSavePackage: Total save time: 177.429684ms
+[2015.12.23-16.09.30:690][753]LogSavePackage:Display: Finished SavePackage ../../../../../../rollingderby/RollingDerby/RollingDerby/Saved/Autosaves/Game/Rolling/Meshes/BallMesh_DM_Auto1.uasset
+[2015.12.23-16.09.30:690][753]LogFileHelpers: Auto-saving content packages took 0.252
+[2015.12.23-16.10.55:503][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Rolling/Meshes/BallMesh_DM" FILE="../../../../../../rollingderby/RollingDerby/RollingDerby/Content/Rolling/Meshes/BallMesh_DM.uasset" SILENT=true
+[2015.12.23-16.10.55:645][163]LogSavePackage: Save=140.463287ms
+[2015.12.23-16.10.55:645][163]LogSavePackage: Moving '../../../../../../rollingderby/RollingDerby/RollingDerby/Saved/BallMesh_DMAC911614407F7A7399BAB2A600ACE9B0.tmp' to '../../../../../../rollingderby/RollingDerby/RollingDerby/Content/Rolling/Meshes/BallMesh_DM.uasset'
+[2015.12.23-16.10.55:647][163]LogSavePackage: Total save time: 143.433370ms
+[2015.12.23-16.10.55:647][163]LogSavePackage:Display: Finished SavePackage ../../../../../../rollingderby/RollingDerby/RollingDerby/Content/Rolling/Meshes/BallMesh_DM.uasset
+[2015.12.23-16.12.08:095][338]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Rolling/Meshes/destructibleBall" FILE="../../../../../../rollingderby/RollingDerby/RollingDerby/Content/Rolling/Meshes/destructibleBall.uasset" SILENT=true
+[2015.12.23-16.12.08:242][338]LogSavePackage: Save=146.077911ms
+[2015.12.23-16.12.08:242][338]LogSavePackage: Moving '../../../../../../rollingderby/RollingDerby/RollingDerby/Saved/destructibleBallB73725B64C11CBF7589D2BAD518F3B54.tmp' to '../../../../../../rollingderby/RollingDerby/RollingDerby/Content/Rolling/Meshes/destructibleBall.uasset'
+[2015.12.23-16.12.08:244][338]LogSavePackage: Total save time: 147.721775ms
+[2015.12.23-16.12.08:244][338]LogSavePackage:Display: Finished SavePackage ../../../../../../rollingderby/RollingDerby/RollingDerby/Content/Rolling/Meshes/destructibleBall.uasset
+[2015.12.23-16.12.21:863][496]BlueprintLog: New page: Compile PhysicsBallBP
+[2015.12.23-16.12.21:888][496]LogBlueprint:Error: [compiler PhysicsBallBP] Error Spawn node  SpawnActor NONE  must have a class specified.
+[2015.12.23-16.12.22:072][496]LogBlueprint:Warning: [compiler PhysicsBallBP] Warning [1223.58] Compile of PhysicsBallBP failed. 1 Fatal Issue(s) 0 Warning(s) [in 208 ms]
+[2015.12.23-16.12.22:072][496]BlueprintEditorCompileResults:Error: Error Spawn node  SpawnActor NONE  must have a class specified.
+[2015.12.23-16.12.22:072][496]BlueprintEditorCompileResults:Warning: Warning [1223.58] Compile of PhysicsBallBP failed. 1 Fatal Issue(s) 0 Warning(s) [in 208 ms]
+[2015.12.23-16.12.30:487][638]BlueprintLog: New page: Compile PhysicsBallBP
+[2015.12.23-16.12.30:511][638]LogBlueprint:Error: [compiler PhysicsBallBP] Error Spawn node  SpawnActor NONE  must have a class specified.
+[2015.12.23-16.12.30:630][638]LogBlueprint:Warning: [compiler PhysicsBallBP] Warning [1232.14] Compile of PhysicsBallBP failed. 1 Fatal Issue(s) 0 Warning(s) [in 142 ms]
+[2015.12.23-16.12.30:630][638]BlueprintEditorCompileResults:Error: Error Spawn node  SpawnActor NONE  must have a class specified.
+[2015.12.23-16.12.30:630][638]BlueprintEditorCompileResults:Warning: Warning [1232.14] Compile of PhysicsBallBP failed. 1 Fatal Issue(s) 0 Warning(s) [in 142 ms]
+[2015.12.23-16.12.39:474][785]BlueprintLog: New page: Compile PhysicsBallBP
+[2015.12.23-16.12.39:579][785]BlueprintEditorCompileResults: Info [1241.09] Compile of PhysicsBallBP successful! [in 104 ms]
+[2015.12.23-16.12.57:530][ 56]BlueprintLog: New page: Compile PhysicsBallBP
+[2015.12.23-16.12.57:639][ 56]BlueprintEditorCompileResults: Info [1259.15] Compile of PhysicsBallBP successful! [in 108 ms]
+[2015.12.23-16.13.02:401][141]LogEditorTransaction: Undo Modify Component(s)
+[2015.12.23-16.13.16:671][339]BlueprintLog: New page: Compile PhysicsBallBP
+[2015.12.23-16.13.16:778][339]BlueprintEditorCompileResults: Info [1278.28] Compile of PhysicsBallBP successful! [in 105 ms]
+[2015.12.23-16.13.41:092][689]BlueprintLog: New page: Compile PhysicsBallBP
+[2015.12.23-16.13.41:119][689]LogBlueprint:Error: [compiler PhysicsBallBP] Error This blueprint (self) is not a PrimitiveComponent, therefore ' Target ' must have a connection.
+[2015.12.23-16.13.41:237][689]LogBlueprint:Warning: [compiler PhysicsBallBP] Warning [1302.74] Compile of PhysicsBallBP failed. 1 Fatal Issue(s) 0 Warning(s) [in 145 ms]
+[2015.12.23-16.13.41:237][689]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a PrimitiveComponent, therefore ' Target ' must have a connection.
+[2015.12.23-16.13.41:237][689]BlueprintEditorCompileResults:Warning: Warning [1302.74] Compile of PhysicsBallBP failed. 1 Fatal Issue(s) 0 Warning(s) [in 145 ms]
+[2015.12.23-16.13.42:475][711]BlueprintLog: New page: Compile PhysicsBallBP
+[2015.12.23-16.13.42:501][711]LogBlueprint:Error: [compiler PhysicsBallBP] Error This blueprint (self) is not a PrimitiveComponent, therefore ' Target ' must have a connection.
+[2015.12.23-16.13.42:615][711]LogBlueprint:Warning: [compiler PhysicsBallBP] Warning [1304.12] Compile of PhysicsBallBP failed. 1 Fatal Issue(s) 0 Warning(s) [in 140 ms]
+[2015.12.23-16.13.42:615][711]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a PrimitiveComponent, therefore ' Target ' must have a connection.
+[2015.12.23-16.13.42:615][711]BlueprintEditorCompileResults:Warning: Warning [1304.12] Compile of PhysicsBallBP failed. 1 Fatal Issue(s) 0 Warning(s) [in 140 ms]
+[2015.12.23-16.13.51:502][847]BlueprintLog: New page: Compile PhysicsBallBP
+[2015.12.23-16.13.51:608][847]BlueprintEditorCompileResults: Info [1313.12] Compile of PhysicsBallBP successful! [in 105 ms]
+[2015.12.23-16.13.54:507][854]LogSavePackage: Save=2205.787598ms
+[2015.12.23-16.13.54:507][854]LogSavePackage: Moving '../../../../../../rollingderby/RollingDerby/RollingDerby/Saved/RollingBPExampleMap1920B60E43ABED0CCD37B4AE904E3C60.tmp' to '../../../../../../rollingderby/RollingDerby/RollingDerby/Content/RollingBP/Maps/RollingBPExampleMap.umap'
+[2015.12.23-16.13.54:512][854]LogSavePackage: Total save time: 2238.707434ms
+[2015.12.23-16.13.54:512][854]LogSavePackage:Display: Finished SavePackage ../../../../../../rollingderby/RollingDerby/RollingDerby/Content/RollingBP/Maps/RollingBPExampleMap.umap
+[2015.12.23-16.13.54:535][854]LogFileHelpers: Saving map 'RollingBPExampleMap' took 2.331
+[2015.12.23-16.13.54:541][854]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RollingBP/Blueprints/PhysicsBallBP" FILE="../../../../../../rollingderby/RollingDerby/RollingDerby/Content/RollingBP/Blueprints/PhysicsBallBP.uasset" SILENT=true
+[2015.12.23-16.13.54:647][854]LogSavePackage: Save=96.861031ms
+[2015.12.23-16.13.54:647][854]LogSavePackage: Moving '../../../../../../rollingderby/RollingDerby/RollingDerby/Saved/PhysicsBallBP7AF009B0477D75BD739F3593EA3C508A.tmp' to '../../../../../../rollingderby/RollingDerby/RollingDerby/Content/RollingBP/Blueprints/PhysicsBallBP.uasset'
+[2015.12.23-16.13.54:649][854]LogSavePackage: Total save time: 106.921297ms
+[2015.12.23-16.13.54:649][854]LogSavePackage:Display: Finished SavePackage ../../../../../../rollingderby/RollingDerby/RollingDerby/Content/RollingBP/Blueprints/PhysicsBallBP.uasset
+[2015.12.23-16.13.55:815][886]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2015.12.23-16.13.55:815][886]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.23-16.13.55:815][886]PIE: New page: PIE session: RollingBPExampleMap (Dec 23, 2015, 6:13:55 PM)
+[2015.12.23-16.13.55:815][886]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap
+[2015.12.23-16.13.55:844][886]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028285s)
+[2015.12.23-16.13.55:844][886]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2015.12.23-16.13.55:845][886]LogPlayLevel: PIE: World Init took: (0.000899s)
+[2015.12.23-16.13.55:845][886]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap to /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap (0.029418s)
+[2015.12.23-16.13.55:882][886]LogInit: XAudio2 using 'HeadPhone/Digital Output (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.12.23-16.13.55:892][886]LogInit: FAudioDevice initialized.
+[2015.12.23-16.13.55:924][886]LogWorld: Game class is 'RollingGameMode_C'
+[2015.12.23-16.13.56:147][886]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap up for play (max tick rate 60) at 2015.12.23-17.13.56
+[2015.12.23-16.13.56:147][886]LogActor:Warning: GameSession /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.23-16.13.56:147][886]LogActor:Warning: GameNetworkManager /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.23-16.13.56:147][886]LogWorld: Bringing up level for play took: 0.222009
+[2015.12.23-16.13.56:148][886]PIE: Info Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap 0.419
+[2015.12.23-16.13.56:149][886]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2015.12.23-16.13.59:065][ 58]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2015.12.23-16.13.59:102][ 58]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2015.12.23-16.13.59:126][ 58]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000234AC858CC0
+[2015.12.23-16.14.07:186][202]BlueprintLog: New page: Compile PhysicsBallBP
+[2015.12.23-16.14.07:285][202]BlueprintEditorCompileResults: Info [1328.79] Compile of PhysicsBallBP successful! [in 99 ms]
+[2015.12.23-16.14.09:514][208]LogSavePackage: Save=1608.430664ms
+[2015.12.23-16.14.09:514][208]LogSavePackage: Moving '../../../../../../rollingderby/RollingDerby/RollingDerby/Saved/RollingBPExampleMapF7BF3BA542765D6B7C39119751C1D415.tmp' to '../../../../../../rollingderby/RollingDerby/RollingDerby/Content/RollingBP/Maps/RollingBPExampleMap.umap'
+[2015.12.23-16.14.09:519][208]LogSavePackage: Total save time: 1614.953510ms
+[2015.12.23-16.14.09:519][208]LogSavePackage:Display: Finished SavePackage ../../../../../../rollingderby/RollingDerby/RollingDerby/Content/RollingBP/Maps/RollingBPExampleMap.umap
+[2015.12.23-16.14.09:542][208]LogFileHelpers: Saving map 'RollingBPExampleMap' took 1.705
+[2015.12.23-16.14.09:547][208]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RollingBP/Blueprints/PhysicsBallBP" FILE="../../../../../../rollingderby/RollingDerby/RollingDerby/Content/RollingBP/Blueprints/PhysicsBallBP.uasset" SILENT=true
+[2015.12.23-16.14.09:643][208]LogSavePackage: Save=94.444435ms
+[2015.12.23-16.14.09:643][208]LogSavePackage: Moving '../../../../../../rollingderby/RollingDerby/RollingDerby/Saved/PhysicsBallBP4D5CCBEB42396DA7EB4C32A214E1243A.tmp' to '../../../../../../rollingderby/RollingDerby/RollingDerby/Content/RollingBP/Blueprints/PhysicsBallBP.uasset'
+[2015.12.23-16.14.09:645][208]LogSavePackage: Total save time: 96.938461ms
+[2015.12.23-16.14.09:645][208]LogSavePackage:Display: Finished SavePackage ../../../../../../rollingderby/RollingDerby/RollingDerby/Content/RollingBP/Blueprints/PhysicsBallBP.uasset
+[2015.12.23-16.14.10:841][258]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground)
+[2015.12.23-16.14.11:523][283]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2015.12.23-16.14.11:523][283]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.23-16.14.11:523][283]PIE: New page: PIE session: RollingBPExampleMap (Dec 23, 2015, 6:14:11 PM)
+[2015.12.23-16.14.11:523][283]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap
+[2015.12.23-16.14.11:551][283]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027579s)
+[2015.12.23-16.14.11:551][283]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2015.12.23-16.14.11:552][283]LogPlayLevel: PIE: World Init took: (0.001004s)
+[2015.12.23-16.14.11:552][283]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap to /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap (0.028809s)
+[2015.12.23-16.14.11:594][283]LogInit: XAudio2 using 'HeadPhone/Digital Output (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.12.23-16.14.11:603][283]LogInit: FAudioDevice initialized.
+[2015.12.23-16.14.11:638][283]LogWorld: Game class is 'RollingGameMode_C'
+[2015.12.23-16.14.11:647][283]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap up for play (max tick rate 60) at 2015.12.23-17.14.11
+[2015.12.23-16.14.11:647][283]LogActor:Warning: GameSession /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.23-16.14.11:647][283]LogActor:Warning: GameNetworkManager /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.23-16.14.11:647][283]LogWorld: Bringing up level for play took: 0.007756
+[2015.12.23-16.14.11:648][283]PIE: Info Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap -0.081
+[2015.12.23-16.14.11:648][283]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2015.12.23-16.14.15:017][483]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2015.12.23-16.14.15:066][483]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2015.12.23-16.14.15:092][483]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002350E251B20
+[2015.12.23-16.14.20:540][582]BlueprintLog: New page: Compile PhysicsBallBP
+[2015.12.23-16.14.20:642][582]BlueprintEditorCompileResults: Info [1342.15] Compile of PhysicsBallBP successful! [in 101 ms]
+[2015.12.23-16.14.22:761][586]LogSavePackage: Save=1621.326660ms
+[2015.12.23-16.14.22:761][586]LogSavePackage: Moving '../../../../../../rollingderby/RollingDerby/RollingDerby/Saved/RollingBPExampleMap8E708B2B415EB8359F8C4CACADBB6FC5.tmp' to '../../../../../../rollingderby/RollingDerby/RollingDerby/Content/RollingBP/Maps/RollingBPExampleMap.umap'
+[2015.12.23-16.14.22:767][586]LogSavePackage: Total save time: 1628.102373ms
+[2015.12.23-16.14.22:767][586]LogSavePackage:Display: Finished SavePackage ../../../../../../rollingderby/RollingDerby/RollingDerby/Content/RollingBP/Maps/RollingBPExampleMap.umap
+[2015.12.23-16.14.22:790][586]LogFileHelpers: Saving map 'RollingBPExampleMap' took 1.720
+[2015.12.23-16.14.22:795][586]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RollingBP/Blueprints/PhysicsBallBP" FILE="../../../../../../rollingderby/RollingDerby/RollingDerby/Content/RollingBP/Blueprints/PhysicsBallBP.uasset" SILENT=true
+[2015.12.23-16.14.22:889][586]LogSavePackage: Save=93.301521ms
+[2015.12.23-16.14.22:889][586]LogSavePackage: Moving '../../../../../../rollingderby/RollingDerby/RollingDerby/Saved/PhysicsBallBP9320CC004E80181B06AEBA84DA555106.tmp' to '../../../../../../rollingderby/RollingDerby/RollingDerby/Content/RollingBP/Blueprints/PhysicsBallBP.uasset'
+[2015.12.23-16.14.22:891][586]LogSavePackage: Total save time: 95.803451ms
+[2015.12.23-16.14.22:891][586]LogSavePackage:Display: Finished SavePackage ../../../../../../rollingderby/RollingDerby/RollingDerby/Content/RollingBP/Blueprints/PhysicsBallBP.uasset
+[2015.12.23-16.14.24:233][626]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2015.12.23-16.14.24:234][626]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.23-16.14.24:234][626]PIE: New page: PIE session: RollingBPExampleMap (Dec 23, 2015, 6:14:24 PM)
+[2015.12.23-16.14.24:234][626]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap
+[2015.12.23-16.14.24:263][626]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029153s)
+[2015.12.23-16.14.24:263][626]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2015.12.23-16.14.24:264][626]LogPlayLevel: PIE: World Init took: (0.000677s)
+[2015.12.23-16.14.24:264][626]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap to /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap (0.029994s)
+[2015.12.23-16.14.24:301][626]LogInit: XAudio2 using 'HeadPhone/Digital Output (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.12.23-16.14.24:311][626]LogInit: FAudioDevice initialized.
+[2015.12.23-16.14.24:347][626]LogWorld: Game class is 'RollingGameMode_C'
+[2015.12.23-16.14.24:357][626]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap up for play (max tick rate 60) at 2015.12.23-17.14.24
+[2015.12.23-16.14.24:357][626]LogActor:Warning: GameSession /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.23-16.14.24:357][626]LogActor:Warning: GameNetworkManager /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.23-16.14.24:357][626]LogWorld: Bringing up level for play took: 0.008877
+[2015.12.23-16.14.24:358][626]PIE: Info Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap 0.629
+[2015.12.23-16.14.24:358][626]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2015.12.23-16.14.27:517][813]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2015.12.23-16.14.27:568][813]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2015.12.23-16.14.27:593][813]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000234AF636020
+[2015.12.23-16.14.35:996][963]BlueprintLog: New page: Compile PhysicsBallBP
+[2015.12.23-16.14.36:096][963]BlueprintEditorCompileResults: Info [1357.60] Compile of PhysicsBallBP successful! [in 99 ms]
+[2015.12.23-16.14.38:382][970]LogSavePackage: Save=1594.503540ms
+[2015.12.23-16.14.38:382][970]LogSavePackage: Moving '../../../../../../rollingderby/RollingDerby/RollingDerby/Saved/RollingBPExampleMap8CDFE7604C0FBDA2A91A28995F8F2543.tmp' to '../../../../../../rollingderby/RollingDerby/RollingDerby/Content/RollingBP/Maps/RollingBPExampleMap.umap'
+[2015.12.23-16.14.38:388][970]LogSavePackage: Total save time: 1601.030719ms
+[2015.12.23-16.14.38:388][970]LogSavePackage:Display: Finished SavePackage ../../../../../../rollingderby/RollingDerby/RollingDerby/Content/RollingBP/Maps/RollingBPExampleMap.umap
+[2015.12.23-16.14.38:410][970]LogFileHelpers: Saving map 'RollingBPExampleMap' took 1.692
+[2015.12.23-16.14.38:416][970]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RollingBP/Blueprints/PhysicsBallBP" FILE="../../../../../../rollingderby/RollingDerby/RollingDerby/Content/RollingBP/Blueprints/PhysicsBallBP.uasset" SILENT=true
+[2015.12.23-16.14.38:509][970]LogSavePackage: Save=91.343590ms
+[2015.12.23-16.14.38:509][970]LogSavePackage: Moving '../../../../../../rollingderby/RollingDerby/RollingDerby/Saved/PhysicsBallBP1B7A36B1482EDB86F0A8349C4BDE0212.tmp' to '../../../../../../rollingderby/RollingDerby/RollingDerby/Content/RollingBP/Blueprints/PhysicsBallBP.uasset'
+[2015.12.23-16.14.38:511][970]LogSavePackage: Total save time: 94.006702ms
+[2015.12.23-16.14.38:511][970]LogSavePackage:Display: Finished SavePackage ../../../../../../rollingderby/RollingDerby/RollingDerby/Content/RollingBP/Blueprints/PhysicsBallBP.uasset
+[2015.12.23-16.14.39:624][  2]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2015.12.23-16.14.39:624][  2]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.23-16.14.39:624][  2]PIE: New page: PIE session: RollingBPExampleMap (Dec 23, 2015, 6:14:39 PM)
+[2015.12.23-16.14.39:624][  2]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap
+[2015.12.23-16.14.39:649][  2]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024136s)
+[2015.12.23-16.14.39:649][  2]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2015.12.23-16.14.39:649][  2]LogPlayLevel: PIE: World Init took: (0.000672s)
+[2015.12.23-16.14.39:649][  2]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap to /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap (0.025009s)
+[2015.12.23-16.14.39:690][  2]LogInit: XAudio2 using 'HeadPhone/Digital Output (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.12.23-16.14.39:699][  2]LogInit: FAudioDevice initialized.
+[2015.12.23-16.14.39:735][  2]LogWorld: Game class is 'RollingGameMode_C'
+[2015.12.23-16.14.39:744][  2]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap up for play (max tick rate 60) at 2015.12.23-17.14.39
+[2015.12.23-16.14.39:744][  2]LogActor:Warning: GameSession /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.23-16.14.39:744][  2]LogActor:Warning: GameNetworkManager /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.23-16.14.39:745][  2]LogWorld: Bringing up level for play took: 0.008293
+[2015.12.23-16.14.39:746][  2]PIE: Info Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap 0.016
+[2015.12.23-16.14.39:746][  2]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2015.12.23-16.15.05:340][523]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2015.12.23-16.15.05:387][523]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2015.12.23-16.15.05:412][523]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000234AE16E700
+[2015.12.23-16.15.25:757][777]BlueprintLog: New page: Compile PhysicsBallBP
+[2015.12.23-16.15.25:870][777]BlueprintEditorCompileResults: Info [1407.38] Compile of PhysicsBallBP successful! [in 111 ms]
+[2015.12.23-16.15.47:878][ 78]BlueprintLog: New page: Compile PhysicsBallBP
+[2015.12.23-16.15.47:988][ 78]BlueprintEditorCompileResults: Info [1429.50] Compile of PhysicsBallBP successful! [in 110 ms]
+[2015.12.23-16.15.54:382][164]BlueprintLog: New page: Compile PhysicsBallBP
+[2015.12.23-16.15.54:486][164]BlueprintEditorCompileResults: Info [1435.99] Compile of PhysicsBallBP successful! [in 103 ms]
+[2015.12.23-16.15.58:428][225]BlueprintLog: New page: Compile PhysicsBallBP
+[2015.12.23-16.15.58:530][225]BlueprintEditorCompileResults: Info [1440.04] Compile of PhysicsBallBP successful! [in 101 ms]
+[2015.12.23-16.16.13:494][439]BlueprintLog: New page: Compile PhysicsBallBP
+[2015.12.23-16.16.13:602][439]BlueprintEditorCompileResults: Info [1455.11] Compile of PhysicsBallBP successful! [in 108 ms]
+[2015.12.23-16.16.15:745][444]LogSavePackage: Save=1619.235596ms
+[2015.12.23-16.16.15:745][444]LogSavePackage: Moving '../../../../../../rollingderby/RollingDerby/RollingDerby/Saved/RollingBPExampleMap16C794914232C27FB8EF86B22E3E4419.tmp' to '../../../../../../rollingderby/RollingDerby/RollingDerby/Content/RollingBP/Maps/RollingBPExampleMap.umap'
+[2015.12.23-16.16.15:751][444]LogSavePackage: Total save time: 1625.471655ms
+[2015.12.23-16.16.15:751][444]LogSavePackage:Display: Finished SavePackage ../../../../../../rollingderby/RollingDerby/RollingDerby/Content/RollingBP/Maps/RollingBPExampleMap.umap
+[2015.12.23-16.16.15:774][444]LogFileHelpers: Saving map 'RollingBPExampleMap' took 1.727
+[2015.12.23-16.16.15:806][444]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RollingBP/Blueprints/PhysicsBallBP" FILE="../../../../../../rollingderby/RollingDerby/RollingDerby/Content/RollingBP/Blueprints/PhysicsBallBP.uasset" SILENT=true
+[2015.12.23-16.16.15:911][444]LogSavePackage: Save=102.507263ms
+[2015.12.23-16.16.15:911][444]LogSavePackage: Moving '../../../../../../rollingderby/RollingDerby/RollingDerby/Saved/PhysicsBallBP6A0EB49A49A5C7541C7CBD9F67C68666.tmp' to '../../../../../../rollingderby/RollingDerby/RollingDerby/Content/RollingBP/Blueprints/PhysicsBallBP.uasset'
+[2015.12.23-16.16.15:912][444]LogSavePackage: Total save time: 105.667371ms
+[2015.12.23-16.16.15:913][444]LogSavePackage:Display: Finished SavePackage ../../../../../../rollingderby/RollingDerby/RollingDerby/Content/RollingBP/Blueprints/PhysicsBallBP.uasset
+[2015.12.23-16.16.17:019][469]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2015.12.23-16.16.17:019][469]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.23-16.16.17:019][469]PIE: New page: PIE session: RollingBPExampleMap (Dec 23, 2015, 6:16:17 PM)
+[2015.12.23-16.16.17:019][469]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap
+[2015.12.23-16.16.17:049][469]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029561s)
+[2015.12.23-16.16.17:049][469]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2015.12.23-16.16.17:050][469]LogPlayLevel: PIE: World Init took: (0.000836s)
+[2015.12.23-16.16.17:050][469]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap to /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap (0.030619s)
+[2015.12.23-16.16.17:094][469]LogInit: XAudio2 using 'HeadPhone/Digital Output (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.12.23-16.16.17:105][469]LogInit: FAudioDevice initialized.
+[2015.12.23-16.16.17:140][469]LogWorld: Game class is 'RollingGameMode_C'
+[2015.12.23-16.16.17:149][469]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap up for play (max tick rate 60) at 2015.12.23-17.16.17
+[2015.12.23-16.16.17:149][469]LogActor:Warning: GameSession /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.23-16.16.17:149][469]LogActor:Warning: GameNetworkManager /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.23-16.16.17:150][469]LogWorld: Bringing up level for play took: 0.008751
+[2015.12.23-16.16.17:151][469]PIE: Info Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap -0.579
+[2015.12.23-16.16.17:151][469]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2015.12.23-16.16.18:275][533]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2015.12.23-16.16.18:324][533]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2015.12.23-16.16.18:351][533]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002348EB9BD80
+[2015.12.23-16.16.39:417][888]BlueprintLog: New page: Compile PhysicsBallBP
+[2015.12.23-16.16.39:520][888]BlueprintEditorCompileResults: Info [1481.03] Compile of PhysicsBallBP successful! [in 103 ms]
+[2015.12.23-16.16.41:572][892]LogSavePackage: Save=1608.316895ms
+[2015.12.23-16.16.41:572][892]LogSavePackage: Moving '../../../../../../rollingderby/RollingDerby/RollingDerby/Saved/RollingBPExampleMap7277E3E54FD18A9A2DC9F8BFD52599C8.tmp' to '../../../../../../rollingderby/RollingDerby/RollingDerby/Content/RollingBP/Maps/RollingBPExampleMap.umap'
+[2015.12.23-16.16.41:578][892]LogSavePackage: Total save time: 1614.623237ms
+[2015.12.23-16.16.41:578][892]LogSavePackage:Display: Finished SavePackage ../../../../../../rollingderby/RollingDerby/RollingDerby/Content/RollingBP/Maps/RollingBPExampleMap.umap
+[2015.12.23-16.16.41:599][892]LogFileHelpers: Saving map 'RollingBPExampleMap' took 1.704
+[2015.12.23-16.16.41:619][892]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RollingBP/Blueprints/PhysicsBallBP" FILE="../../../../../../rollingderby/RollingDerby/RollingDerby/Content/RollingBP/Blueprints/PhysicsBallBP.uasset" SILENT=true
+[2015.12.23-16.16.41:723][892]LogSavePackage: Save=101.936790ms
+[2015.12.23-16.16.41:723][892]LogSavePackage: Moving '../../../../../../rollingderby/RollingDerby/RollingDerby/Saved/PhysicsBallBP12F407E54D0207F58555A1A927B044B6.tmp' to '../../../../../../rollingderby/RollingDerby/RollingDerby/Content/RollingBP/Blueprints/PhysicsBallBP.uasset'
+[2015.12.23-16.16.41:725][892]LogSavePackage: Total save time: 104.538675ms
+[2015.12.23-16.16.41:725][892]LogSavePackage:Display: Finished SavePackage ../../../../../../rollingderby/RollingDerby/RollingDerby/Content/RollingBP/Blueprints/PhysicsBallBP.uasset
+[2015.12.23-16.16.42:784][919]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2015.12.23-16.16.42:784][919]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.23-16.16.42:784][919]PIE: New page: PIE session: RollingBPExampleMap (Dec 23, 2015, 6:16:42 PM)
+[2015.12.23-16.16.42:784][919]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap
+[2015.12.23-16.16.42:814][919]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030402s)
+[2015.12.23-16.16.42:815][919]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2015.12.23-16.16.42:815][919]LogPlayLevel: PIE: World Init took: (0.000850s)
+[2015.12.23-16.16.42:816][919]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap to /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap (0.031579s)
+[2015.12.23-16.16.42:856][919]LogInit: XAudio2 using 'HeadPhone/Digital Output (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.12.23-16.16.42:866][919]LogInit: FAudioDevice initialized.
+[2015.12.23-16.16.42:901][919]LogWorld: Game class is 'RollingGameMode_C'
+[2015.12.23-16.16.42:911][919]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap up for play (max tick rate 60) at 2015.12.23-17.16.42
+[2015.12.23-16.16.42:911][919]LogActor:Warning: GameSession /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.23-16.16.42:911][919]LogActor:Warning: GameNetworkManager /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.23-16.16.42:911][919]LogWorld: Bringing up level for play took: 0.008984
+[2015.12.23-16.16.42:912][919]PIE: Info Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap -0.817
+[2015.12.23-16.16.42:912][919]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2015.12.23-16.16.46:832][152]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2015.12.23-16.16.46:879][152]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2015.12.23-16.16.46:909][152]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000234CCF4F1A0
+[2015.12.23-16.16.57:685][325]BlueprintLog: New page: Compile PhysicsBallBP
+[2015.12.23-16.16.57:787][325]BlueprintEditorCompileResults: Info [1499.29] Compile of PhysicsBallBP successful! [in 102 ms]
+[2015.12.23-16.17.21:507][670]BlueprintLog: New page: Compile PhysicsBallBP
+[2015.12.23-16.17.21:614][670]BlueprintEditorCompileResults: Info [1523.12] Compile of PhysicsBallBP successful! [in 106 ms]
+[2015.12.23-16.17.32:489][830]BlueprintLog: New page: Compile PhysicsBallBP
+[2015.12.23-16.17.32:591][830]BlueprintEditorCompileResults: Info [1534.10] Compile of PhysicsBallBP successful! [in 101 ms]
+[2015.12.23-16.17.39:009][928]BlueprintLog: New page: Compile PhysicsBallBP
+[2015.12.23-16.17.39:117][928]BlueprintEditorCompileResults: Info [1540.62] Compile of PhysicsBallBP successful! [in 107 ms]
+[2015.12.23-16.17.42:321][980]BlueprintLog: New page: Compile PhysicsBallBP
+[2015.12.23-16.17.42:434][980]BlueprintEditorCompileResults: Info [1543.94] Compile of PhysicsBallBP successful! [in 112 ms]
+[2015.12.23-16.18.05:897][304]BlueprintLog: New page: Compile PhysicsBallBP
+[2015.12.23-16.18.06:000][304]BlueprintEditorCompileResults: Info [1567.51] Compile of PhysicsBallBP successful! [in 103 ms]
+[2015.12.23-16.18.08:201][310]LogSavePackage: Save=1606.274048ms
+[2015.12.23-16.18.08:201][310]LogSavePackage: Moving '../../../../../../rollingderby/RollingDerby/RollingDerby/Saved/RollingBPExampleMap064202D4443A26DE8BDE48A576849ED2.tmp' to '../../../../../../rollingderby/RollingDerby/RollingDerby/Content/RollingBP/Maps/RollingBPExampleMap.umap'
+[2015.12.23-16.18.08:207][310]LogSavePackage: Total save time: 1612.905901ms
+[2015.12.23-16.18.08:207][310]LogSavePackage:Display: Finished SavePackage ../../../../../../rollingderby/RollingDerby/RollingDerby/Content/RollingBP/Maps/RollingBPExampleMap.umap
+[2015.12.23-16.18.08:230][310]LogFileHelpers: Saving map 'RollingBPExampleMap' took 1.707
+[2015.12.23-16.18.08:250][310]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RollingBP/Blueprints/PhysicsBallBP" FILE="../../../../../../rollingderby/RollingDerby/RollingDerby/Content/RollingBP/Blueprints/PhysicsBallBP.uasset" SILENT=true
+[2015.12.23-16.18.08:358][310]LogSavePackage: Save=106.900360ms
+[2015.12.23-16.18.08:358][310]LogSavePackage: Moving '../../../../../../rollingderby/RollingDerby/RollingDerby/Saved/PhysicsBallBPED59BF584B4FEACDBF2FE3844555C290.tmp' to '../../../../../../rollingderby/RollingDerby/RollingDerby/Content/RollingBP/Blueprints/PhysicsBallBP.uasset'
+[2015.12.23-16.18.08:360][310]LogSavePackage: Total save time: 109.590340ms
+[2015.12.23-16.18.08:360][310]LogSavePackage:Display: Finished SavePackage ../../../../../../rollingderby/RollingDerby/RollingDerby/Content/RollingBP/Blueprints/PhysicsBallBP.uasset
+[2015.12.23-16.18.13:431][385]BlueprintLog: New page: Compile PhysicsBallBP
+[2015.12.23-16.18.13:536][385]BlueprintEditorCompileResults: Info [1575.04] Compile of PhysicsBallBP successful! [in 104 ms]
+[2015.12.23-16.19.09:865][681]LogSavePackage: Save=1644.035645ms
+[2015.12.23-16.19.09:865][681]LogSavePackage: Moving '../../../../../../rollingderby/RollingDerby/RollingDerby/Saved/RollingBPExampleMap28D690554DC3D68ABD5ADC825AC98F10.tmp' to '../../../../../../rollingderby/RollingDerby/RollingDerby/Content/RollingBP/Maps/RollingBPExampleMap.umap'
+[2015.12.23-16.19.09:871][681]LogSavePackage: Total save time: 1678.421091ms
+[2015.12.23-16.19.09:872][681]LogSavePackage:Display: Finished SavePackage ../../../../../../rollingderby/RollingDerby/RollingDerby/Content/RollingBP/Maps/RollingBPExampleMap.umap
+[2015.12.23-16.19.09:894][681]LogFileHelpers: Saving map 'RollingBPExampleMap' took 1.773
+[2015.12.23-16.19.09:929][681]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RollingBP/Blueprints/PhysicsBallBP" FILE="../../../../../../rollingderby/RollingDerby/RollingDerby/Content/RollingBP/Blueprints/PhysicsBallBP.uasset" SILENT=true
+[2015.12.23-16.19.10:051][681]LogSavePackage: Save=112.320618ms
+[2015.12.23-16.19.10:051][681]LogSavePackage: Moving '../../../../../../rollingderby/RollingDerby/RollingDerby/Saved/PhysicsBallBP4C691CF242935EDDC87779848B383DBE.tmp' to '../../../../../../rollingderby/RollingDerby/RollingDerby/Content/RollingBP/Blueprints/PhysicsBallBP.uasset'
+[2015.12.23-16.19.10:053][681]LogSavePackage: Total save time: 122.309770ms
+[2015.12.23-16.19.10:053][681]LogSavePackage:Display: Finished SavePackage ../../../../../../rollingderby/RollingDerby/RollingDerby/Content/RollingBP/Blueprints/PhysicsBallBP.uasset
+[2015.12.23-16.19.13:807][757]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2015.12.23-16.19.13:807][757]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.23-16.19.13:807][757]PIE: New page: PIE session: RollingBPExampleMap (Dec 23, 2015, 6:19:13 PM)
+[2015.12.23-16.19.13:807][757]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap
+[2015.12.23-16.19.13:839][757]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032059s)
+[2015.12.23-16.19.13:840][757]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2015.12.23-16.19.13:841][757]LogPlayLevel: PIE: World Init took: (0.001353s)
+[2015.12.23-16.19.13:841][757]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap to /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap (0.033822s)
+[2015.12.23-16.19.13:881][757]LogInit: XAudio2 using 'HeadPhone/Digital Output (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.12.23-16.19.13:891][757]LogInit: FAudioDevice initialized.
+[2015.12.23-16.19.13:927][757]LogWorld: Game class is 'RollingGameMode_C'
+[2015.12.23-16.19.13:938][757]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap up for play (max tick rate 60) at 2015.12.23-17.19.13
+[2015.12.23-16.19.13:938][757]LogActor:Warning: GameSession /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.23-16.19.13:938][757]LogActor:Warning: GameNetworkManager /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.23-16.19.13:939][757]LogWorld: Bringing up level for play took: 0.009726
+[2015.12.23-16.19.13:940][757]PIE: Info Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap 0.21
+[2015.12.23-16.19.13:940][757]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2015.12.23-16.19.24:589][392]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2015.12.23-16.19.24:638][392]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2015.12.23-16.19.24:663][392]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002350BE89DA0
+[2015.12.23-16.19.39:235][653]BlueprintLog: New page: Compile PhysicsBallBP
+[2015.12.23-16.19.39:340][653]BlueprintEditorCompileResults: Info [1660.85] Compile of PhysicsBallBP successful! [in 105 ms]
+[2015.12.23-16.19.41:433][658]LogSavePackage: Save=1597.422241ms
+[2015.12.23-16.19.41:433][658]LogSavePackage: Moving '../../../../../../rollingderby/RollingDerby/RollingDerby/Saved/RollingBPExampleMapA2CC3444403FB55EB18487B61FF9F6DE.tmp' to '../../../../../../rollingderby/RollingDerby/RollingDerby/Content/RollingBP/Maps/RollingBPExampleMap.umap'
+[2015.12.23-16.19.41:438][658]LogSavePackage: Total save time: 1603.817489ms
+[2015.12.23-16.19.41:438][658]LogSavePackage:Display: Finished SavePackage ../../../../../../rollingderby/RollingDerby/RollingDerby/Content/RollingBP/Maps/RollingBPExampleMap.umap
+[2015.12.23-16.19.41:462][658]LogFileHelpers: Saving map 'RollingBPExampleMap' took 1.694
+[2015.12.23-16.19.41:483][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RollingBP/Blueprints/PhysicsBallBP" FILE="../../../../../../rollingderby/RollingDerby/RollingDerby/Content/RollingBP/Blueprints/PhysicsBallBP.uasset" SILENT=true
+[2015.12.23-16.19.41:597][658]LogSavePackage: Save=111.736320ms
+[2015.12.23-16.19.41:597][658]LogSavePackage: Moving '../../../../../../rollingderby/RollingDerby/RollingDerby/Saved/PhysicsBallBPD64F7C904705640128449BB30C0B8EEE.tmp' to '../../../../../../rollingderby/RollingDerby/RollingDerby/Content/RollingBP/Blueprints/PhysicsBallBP.uasset'
+[2015.12.23-16.19.41:599][658]LogSavePackage: Total save time: 114.527829ms
+[2015.12.23-16.19.41:599][658]LogSavePackage:Display: Finished SavePackage ../../../../../../rollingderby/RollingDerby/RollingDerby/Content/RollingBP/Blueprints/PhysicsBallBP.uasset
+[2015.12.23-16.20.03:612][985]BlueprintLog: New page: Compile PhysicsBallBP
+[2015.12.23-16.20.03:714][985]BlueprintEditorCompileResults: Info [1685.22] Compile of PhysicsBallBP successful! [in 101 ms]
+[2015.12.23-16.20.05:966][993]LogSavePackage: Save=1616.023682ms
+[2015.12.23-16.20.05:966][993]LogSavePackage: Moving '../../../../../../rollingderby/RollingDerby/RollingDerby/Saved/RollingBPExampleMapC5F595704805972D10F34892C8317EE7.tmp' to '../../../../../../rollingderby/RollingDerby/RollingDerby/Content/RollingBP/Maps/RollingBPExampleMap.umap'
+[2015.12.23-16.20.05:971][993]LogSavePackage: Total save time: 1621.992737ms
+[2015.12.23-16.20.05:971][993]LogSavePackage:Display: Finished SavePackage ../../../../../../rollingderby/RollingDerby/RollingDerby/Content/RollingBP/Maps/RollingBPExampleMap.umap
+[2015.12.23-16.20.05:994][993]LogFileHelpers: Saving map 'RollingBPExampleMap' took 1.710
+[2015.12.23-16.20.06:013][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RollingBP/Blueprints/PhysicsBallBP" FILE="../../../../../../rollingderby/RollingDerby/RollingDerby/Content/RollingBP/Blueprints/PhysicsBallBP.uasset" SILENT=true
+[2015.12.23-16.20.06:126][993]LogSavePackage: Save=110.756561ms
+[2015.12.23-16.20.06:126][993]LogSavePackage: Moving '../../../../../../rollingderby/RollingDerby/RollingDerby/Saved/PhysicsBallBPE43741B64EB51D65A887529263D9ACD8.tmp' to '../../../../../../rollingderby/RollingDerby/RollingDerby/Content/RollingBP/Blueprints/PhysicsBallBP.uasset'
+[2015.12.23-16.20.06:128][993]LogSavePackage: Total save time: 113.455240ms
+[2015.12.23-16.20.06:128][993]LogSavePackage:Display: Finished SavePackage ../../../../../../rollingderby/RollingDerby/RollingDerby/Content/RollingBP/Blueprints/PhysicsBallBP.uasset
+[2015.12.23-16.20.07:339][ 23]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2015.12.23-16.20.07:339][ 23]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.23-16.20.07:339][ 23]PIE: New page: PIE session: RollingBPExampleMap (Dec 23, 2015, 6:20:07 PM)
+[2015.12.23-16.20.07:340][ 23]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap
+[2015.12.23-16.20.07:367][ 23]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027174s)
+[2015.12.23-16.20.07:367][ 23]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2015.12.23-16.20.07:367][ 23]LogPlayLevel: PIE: World Init took: (0.000719s)
+[2015.12.23-16.20.07:368][ 23]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap to /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap (0.028165s)
+[2015.12.23-16.20.07:411][ 23]LogInit: XAudio2 using 'HeadPhone/Digital Output (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.12.23-16.20.07:421][ 23]LogInit: FAudioDevice initialized.
+[2015.12.23-16.20.07:456][ 23]LogWorld: Game class is 'RollingGameMode_C'
+[2015.12.23-16.20.07:466][ 23]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap up for play (max tick rate 60) at 2015.12.23-17.20.07
+[2015.12.23-16.20.07:466][ 23]LogActor:Warning: GameSession /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.23-16.20.07:467][ 23]LogActor:Warning: GameNetworkManager /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.23-16.20.07:467][ 23]LogWorld: Bringing up level for play took: 0.008968
+[2015.12.23-16.20.07:468][ 23]PIE: Info Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap -0.261
+[2015.12.23-16.20.07:468][ 23]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2015.12.23-16.20.08:685][ 93]LogScript:Warning: Cannot access 'ball'. It is pending kill. Property: 'ball'
+	PhysicsBallBP_C /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.PhysicsBallBP_C_3
+	Function /Game/RollingBP/Blueprints/PhysicsBallBP.PhysicsBallBP_C:ExecuteUbergraph_PhysicsBallBP:0388
+[2015.12.23-16.20.08:686][ 93]PIE:Error: Error Cannot access 'ball'. It is pending kill. Property: 'ball' from node Add Force in graph 'EventGraph' in blueprint PhysicsBallBP
+[2015.12.23-16.20.09:171][ 93]LogCrashTracker: 
+
+
+[2015.12.23-16.20.09:171][ 93]LogThreadingWindows:Error: Runnable thread TaskGraphThread 0 crashed.
+[2015.12.23-16.20.09:171][ 93]LogCrashTracker: 
+
+
+[2015.12.23-16.20.09:171][ 93]LogWindows:Error: === Critical error: ===
+Fatal error!
+
+
+Crash in runnable thread TaskGraphThread 0
+
+[2015.12.23-16.20.09:236][ 93]LogExit: Executing StaticShutdownAfterError
+[2015.12.23-16.20.09:236][ 93]LogWindows: FPlatformMisc::RequestExit(1)
+[2015.12.23-16.20.09:236][ 93]Log file closed, 12/23/15 17:20:09
