@@ -25,8 +25,8 @@
 <CallStack></CallStack>
 <SourceContext></SourceContext>
 <UserDescription></UserDescription>
-<ErrorMessage>Ensure condition failed: 0 [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.10\Engine\Source\Editor\UnrealEd\Private\EditorServer.cpp] [Line: 1789] 
-Rebuild BSP ignored. Not in a transaction
+<ErrorMessage>Assertion failed: bWasFound [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.10\Engine\Source\Runtime\Slate\Private\Framework\Application\SlateApplication.cpp] [Line: 2467] 
+
 </ErrorMessage>
 <MiscNumberOfCores>4</MiscNumberOfCores>
 <MiscNumberOfCoresIncludingHyperthreads>8</MiscNumberOfCoresIncludingHyperthreads>
@@ -41,12 +41,12 @@ Rebuild BSP ignored. Not in a transaction
 <MemoryStatsTotalVirtual>140737488224256</MemoryStatsTotalVirtual>
 <MemoryStatsPageSize>4096</MemoryStatsPageSize>
 <MemoryStatsTotalPhysicalGB>16</MemoryStatsTotalPhysicalGB>
-<MemoryStatsAvailablePhysical>6515380224</MemoryStatsAvailablePhysical>
-<MemoryStatsAvailableVirtual>140728991891456</MemoryStatsAvailableVirtual>
-<MemoryStatsUsedPhysical>5527379968</MemoryStatsUsedPhysical>
-<MemoryStatsPeakUsedPhysical>5527379968</MemoryStatsPeakUsedPhysical>
-<MemoryStatsUsedVirtual>6623838208</MemoryStatsUsedVirtual>
-<MemoryStatsPeakUsedVirtual>6623838208</MemoryStatsPeakUsedVirtual>
+<MemoryStatsAvailablePhysical>8004427776</MemoryStatsAvailablePhysical>
+<MemoryStatsAvailableVirtual>140726964457472</MemoryStatsAvailableVirtual>
+<MemoryStatsUsedPhysical>1572114432</MemoryStatsUsedPhysical>
+<MemoryStatsPeakUsedPhysical>5596844032</MemoryStatsPeakUsedPhysical>
+<MemoryStatsUsedVirtual>8474566656</MemoryStatsUsedVirtual>
+<MemoryStatsPeakUsedVirtual>8572940288</MemoryStatsPeakUsedVirtual>
 <MemoryStatsbIsOOM>0</MemoryStatsbIsOOM>
 <MemoryStatsOOMAllocationSize>0</MemoryStatsOOMAllocationSize>
 <MemoryStatsOOMAllocationAlignment>0</MemoryStatsOOMAllocationAlignment>
