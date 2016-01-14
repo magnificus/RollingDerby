@@ -6,15 +6,15 @@
 
 1: HUD
 
-2: More powerups enabling abilities such as jumping
+2: More powerups enabling abilities such as jumping - done
 
-3: Verify network play works
+3: Verify network play works - done (?)
 
-4: Procedural level generator (preferably in c++?)
+4: Procedural level generator (preferably in c++?) - partly done
 
 5: More graphical assets, fun meshes
 
-6: Rebalance mass/inertia importance in collision to work for many possible sizes
+6: Rebalance mass/inertia importance in collision to work for many possible sizes - partly done
 
 
 
