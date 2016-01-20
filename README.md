@@ -1,10 +1,13 @@
 # RollingDerby
 
+Rolling Derby is a next generation TPR (third person roller).
+
+
 #TODO
 
 # Primary
 
-1: HUD
+1: HUD - partly done
 
 2: More powerups enabling abilities such as jumping - done
 
